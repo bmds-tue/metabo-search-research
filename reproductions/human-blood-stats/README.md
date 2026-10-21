@@ -1,88 +1,46 @@
-# Human and blood-derived sample counts in MetaboLights and Metabolomics Workbench
+# Repository rows in human-tagged metabolomics studies
 *Client-only reproduction (no database).*
 
-**Finding.** Across the two major public metabolomics repositories, the
-MetaboLights and Metabolomics Workbench studies with a human organism contain
-**≈ 512,000 samples**, of which **≈ 285,000 (~56%) are blood-derived**
-(blood, plasma, or serum). This is a per-sample census of the repositories'
-own metadata, not a curated subset.
+**Finding.** In the checked-in metadata snapshot, **2,911 studies tagged as human** contain **517,895 parsed sample/factor rows**. Adding study-index counts for studies whose sample metadata could not be read gives an approximate total of **518,744 rows**. A broad tissue/source-text rule matched blood, plasma, or serum for **290,489 parsed rows** (approximately **290,989** with the same limited missing-metadata adjustment; about **56%** of the estimated row total).
 
-This reproduction uses only the library clients: it fetches each repository's
-sample metadata and counts rows directly in Python.
+These are repository rows associated with human-tagged studies—not unique people, and not a sample-by-sample validation that every row is a human biological specimen. Counts include whatever rows the repositories expose, such as repeated measurements, technical replicates, blanks, and QC material.
 
-## Data sources
+## Saved snapshot results
 
-| repository | studies (all) | human studies | human samples | blood-derived |
-|---|---:|---:|---:|---:|
-| MetaboLights | 3,511 | 1,025 | 213,952 | 106,704 |
-| Metabolomics Workbench | 4,629 | 1,871 | 297,536 | 178,201 |
-| **combined** | **8,140** | **2,896** | **511,488** | **284,905** |
+| repository | studies tagged human | parsed sample/factor rows | rows matching blood-label rule | estimated rows | estimated blood-label rows |
+|---|---:|---:|---:|---:|---:|
+| MetaboLights | 1,038 | 214,334 | 106,714 | 215,138 | 107,214 |
+| Metabolomics Workbench | 1,873 | 303,561 | 183,775 | 303,606 | 183,775 |
+| **Combined** | **2,911** | **517,895** | **290,489** | **518,744** | **290,989** |
 
-MetaboLights samples are read from the ISA-Tab sample sheets of each human
-study; Workbench samples are read from each study's `factors` endpoint. A
-sample is counted as blood-derived when its tissue/source contains
-`blood`, `plasma`, or `serum`; `seminal plasma` is excluded. Counts are
-per-sample rows, not unique individuals.
+The checked-in census JSON does not record its acquisition timestamp; repository indexes can change. Treat these as counts from the saved snapshot, not live guarantees. The estimate adds study-index sample counts for 8 MetaboLights studies (804 rows) and 2 Workbench studies (45 rows) with missing/empty sample-level metadata. For MetaboLights, the blood-label estimate adds all rows from an unreadable study when a study-level facet contains a matching term. For Workbench, no blood labels are inferred for rows missing factor metadata, so its blood-label total remains the parsed count.
 
 ## Method
 
-No database and no working set — the two clients are called directly and the
-rows are counted in Python.
+The two public repositories are queried independently; there is no cross-repository join or deduplication.
 
-- **MetaboLights.** `search(organisms=["Homo sapiens"])` retrieves the human
-  study set; each study is deep-inspected for its ISA sample sheet
-  (`inspect(include_metabolites=False)`), and samples are classified on
-  `organism_part`.
-- **Workbench.** The whole-index summary corpus is filtered to
-  `species == "Homo sapiens"`; each study's factor rows are fetched
-  (`samples(study_id)`) and classified on `sample_source`.
+- **MetaboLights.** `search(organisms=["Homo sapiens"])` selects studies tagged with the human organism. Each selected study is inspected for its ISA sample sheet. The script counts every parsed row and applies the blood-label rule to `organism_part`.
+- **Workbench.** The whole-index summary corpus is filtered to `species == "Homo sapiens"`. The script fetches each selected study's factor rows, counts every row, and applies the rule to `sample_source`.
 
-Both repositories are counted independently; no cross-repository join is
-performed.
+Thus “human” is the repository's study-level organism/species annotation; the census does not reclassify each sample row by species. The blood-label rule is case-insensitive and matches text containing `blood`, `plasma`, or `serum`, except terms containing `seminal`.
 
-## Results
+## Interpretation and limitations
 
-**≈ 512,000 human samples; ≈ 285,000 (~56%) blood-derived.**
-
-Blood is dominated by the canonical biofluids: in MetaboLights, `blood plasma`
-(45,790) and `blood serum` (33,366) account for ~74% of the blood-derived
-total, with the remainder spread over `plasma`/`serum`/`blood` variants, whole
-and cord blood, and blood cells. In the Workbench, `Blood (plasma)` (70,561)
-and `Blood (serum)` (28,837) similarly dominate, followed by lowercase
-`plasma` (24,690) and `Blood` (13,845).
-
-For full coverage, the estimate adds the search-index `sample_count` for the
-studies whose per-sample metadata could not be read (8 MetaboLights studies
-without ISA files on the mirror; 2 Workbench studies whose factor endpoint is
-empty), giving **512,337 samples / 285,405 blood**.
-
-## Limitations
-
-- **Sample rows, not individuals.** Repeated sampling of the same subject
-  (time points, technical replicates) is counted as separate samples; QC,
-  blank, and solvent rows are included in the totals.
-- **Live repositories.** Both indexes change continuously, so the counts are a
-  dated snapshot and move by a few studies between runs.
-- **Unreadable metadata.** 10 studies (~0.3% of the corpus) expose no
-  per-sample metadata and are covered only by their study-level sample count.
-- **Vocabulary.** Blood classification is substring-based on the repositories'
-  free-text tissue/source fields; borderline terms (e.g. bone-marrow serum,
-  dried blood spots) are included under a broad "blood of some sort" reading.
+- The unit is a repository sample/factor row, not a unique participant. Repeated measures and technical replicates count separately; blank and QC rows may also count.
+- Study-level human tagging does not guarantee that every row in a study is a human biospecimen. Cell lines, controls, or other row types remain in the count.
+- The blood figure is a broad text-label tally, not a curated tissue classification. Different vocabularies and fields are used by the two repositories; ambiguous labels may be included or missed.
+- The missing-metadata adjustments are approximate study-level estimates, not individually classified samples. In particular, the MetaboLights blood fallback assigns the full study index count to blood when any study-level facet matches.
+- The repositories are counted separately, with no cross-repository deduplication.
 
 ## Reproducibility
 
-Install the pinned dependencies once from the repository root, then run this
-script from the repository root:
+Install the pinned dependencies from the repository root, then run from that root:
 
 ```bash
 python -m pip install -r requirements.txt
 python reproductions/human-blood-stats/reproduce.py --workers 4
 ```
 
-- **Library:** `metabo-search` at commit
-  `4ee8d01525a898b83dfcd3ec408e372f013236f8`.
-- **Runtime:** ~13 minutes; the run is network-bound. `--workers 4` is the
-  measured optimum (8 triggers server throttling, 2 underutilizes).
-- **Output:** `reproductions/human-blood-stats/out/metabolights.json`,
-  `out/workbench.json`, and `out/summary.json` (counts plus per-study detail
-  for auditing).
+- **Library:** `metabo-search` at commit `4ee8d01525a898b83dfcd3ec408e372f013236f8`.
+- **Runtime:** about 13 minutes; the run is network-bound.
+- **Outputs:** `out/metabolights.json`, `out/workbench.json`, and `out/summary.json` (counts plus per-study detail for auditing).

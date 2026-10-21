@@ -36,8 +36,8 @@ class HumanBloodSnapshotTests(unittest.TestCase):
 
     def test_saved_parsed_counts(self) -> None:
         expected = {
-            "metabolights": (1025, 213952, 106704),
-            "workbench": (1871, 297536, 178201),
+            "metabolights": (1038, 214334, 106714),
+            "workbench": (1873, 303561, 183775),
         }
         for repository, (studies, samples, blood) in expected.items():
             with self.subTest(repository=repository):
@@ -55,8 +55,8 @@ class HumanBloodSnapshotTests(unittest.TestCase):
             self.summary[repository]["human_samples_blood_estimate"]
             for repository in ("metabolights", "workbench")
         )
-        self.assertEqual(sample_estimate, 512337)
-        self.assertEqual(blood_estimate, 285405)
+        self.assertEqual(sample_estimate, 518744)
+        self.assertEqual(blood_estimate, 290989)
 
     def test_missing_workbench_rows_are_added_to_estimate(self) -> None:
         missing = sum(
@@ -66,10 +66,10 @@ class HumanBloodSnapshotTests(unittest.TestCase):
         )
         self.assertEqual(missing, 45)
         self.assertEqual(
-            self.workbench["human_samples_total_estimate"], 297536 + missing
+            self.workbench["human_samples_total_estimate"], 303561 + missing
         )
         self.assertEqual(
-            self.summary["workbench"]["human_samples_total_estimate"], 297581
+            self.summary["workbench"]["human_samples_total_estimate"], 303606
         )
 
     def test_blood_classification(self) -> None:
@@ -83,7 +83,7 @@ class HumanBloodSnapshotTests(unittest.TestCase):
 
 class RefMetSnapshotTests(unittest.TestCase):
     def test_saved_duckdb_snapshot_matches_manifest_offline(self) -> None:
-        analysis = ROOT / "analyses/workbench-refmet-only"
+        analysis = ROOT / "reproductions/workbench-refmet-overlap"
         manifest = json.loads((analysis / "manifest.json").read_text())
         with duckdb.connect(str(analysis / "workbench_refmet_only.duckdb"), read_only=True) as db:
             row = db.execute(

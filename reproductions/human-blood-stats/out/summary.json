@@ -2,14 +2,14 @@
   "metabo_search_commit": "4ee8d01525a898b83dfcd3ec408e372f013236f8",
   "metabolights": {
     "repository": "metabolights",
-    "human_studies": 1025,
-    "human_samples_total": 213952,
-    "human_samples_total_estimate": 214756,
-    "human_samples_blood": 106704,
-    "human_samples_blood_estimate": 107204,
-    "human_samples_canonical": 79156,
-    "human_samples_canonical_estimate": 79156,
-    "studies_inspected_ok": 1017,
+    "human_studies": 1038,
+    "human_samples_total": 214334,
+    "human_samples_total_estimate": 215138,
+    "human_samples_blood": 106714,
+    "human_samples_blood_estimate": 107214,
+    "human_samples_canonical": 79166,
+    "human_samples_canonical_estimate": 79166,
+    "studies_inspected_ok": 1030,
     "studies_unreliable": 8,
     "unreliable_studies": [
       {
@@ -94,11 +94,11 @@
   },
   "workbench": {
     "repository": "metabolomics_workbench",
-    "human_studies": 1871,
-    "human_samples_total": 297536,
-    "human_samples_total_estimate": 297581,
-    "human_samples_blood": 178201,
-    "human_samples_blood_estimate": 178201,
+    "human_studies": 1873,
+    "human_samples_total": 303561,
+    "human_samples_total_estimate": 303606,
+    "human_samples_blood": 183775,
+    "human_samples_blood_estimate": 183775,
     "studies_failed": 0
   }
 }

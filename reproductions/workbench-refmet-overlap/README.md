@@ -4,7 +4,7 @@ This is a **Metabolomics Workbench-only** analysis. It uses the Workbench `refme
 
 ## Dataset
 
-The full public Workbench summary corpus was refreshed through the API on 21 October 2026. It contained **4,646 studies**. The summary species field identified **1,903 human-tagged candidates**; sample records were inspected for those candidates. **1,890 studies** had at least one sample with human evidence. The remaining 13 candidates did not meet the sample rule and were excluded.
+The full public Workbench summary corpus was refreshed through the API on 21 October 2026 (live run `20261021T111615Z`). It contained **4,646 studies**. The summary species field identified **1,903 human-tagged candidates**; sample records were inspected for those candidates. **1,890 studies** had at least one sample with human evidence. The remaining 13 candidates did not meet the sample rule and were excluded.
 
 Among the 1,890 sample-verified human studies, **1,411 had at least one non-empty `refmet_name`**. After keeping only distinct, non-empty RefMet names, **734 studies had at least 100 names** and entered the pairwise comparison. This produced **269,011 unique unordered study pairs**.
 
@@ -48,7 +48,7 @@ The script uses a small, vendored Workbench-only subset of `metabo-search` 0.1.0
 To reproduce the **saved snapshot exactly**, without API calls, rebuild the pair table, summary, CSVs, and plot from its database records:
 
 ```bash
-.venv/bin/python run_refmet_only.py --recompute 20261021T074807Z
+.venv/bin/python run_refmet_only.py --recompute 20261021T111615Z
 ```
 
 ## Files

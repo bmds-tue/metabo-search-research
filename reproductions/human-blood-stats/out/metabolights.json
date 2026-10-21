@@ -1,13 +1,13 @@
 {
   "repository": "metabolights",
-  "human_studies": 1025,
-  "human_samples_total": 213952,
-  "human_samples_total_estimate": 214756,
-  "human_samples_blood": 106704,
-  "human_samples_blood_estimate": 107204,
-  "human_samples_canonical": 79156,
-  "human_samples_canonical_estimate": 79156,
-  "studies_inspected_ok": 1017,
+  "human_studies": 1038,
+  "human_samples_total": 214334,
+  "human_samples_total_estimate": 215138,
+  "human_samples_blood": 106714,
+  "human_samples_blood_estimate": 107214,
+  "human_samples_canonical": 79166,
+  "human_samples_canonical_estimate": 79166,
+  "studies_inspected_ok": 1030,
   "studies_unreliable": 8,
   "unreliable_studies": [
     {
@@ -5525,6 +5525,34 @@
       }
     },
     {
+      "study_id": "MTBLS14227",
+      "index_samples": 98,
+      "parsed_samples": 98,
+      "error": null,
+      "study_parts": [
+        "Monocyte",
+        "blank"
+      ],
+      "parts": {
+        "Monocyte": 96,
+        "blank": 2
+      }
+    },
+    {
+      "study_id": "MTBLS14228",
+      "index_samples": 24,
+      "parsed_samples": 24,
+      "error": null,
+      "study_parts": [
+        "Monocyte",
+        "blank"
+      ],
+      "parts": {
+        "Monocyte": 21,
+        "blank": 3
+      }
+    },
+    {
       "study_id": "MTBLS14238",
       "index_samples": 71,
       "parsed_samples": 71,
@@ -6397,6 +6425,18 @@
       }
     },
     {
+      "study_id": "MTBLS15198",
+      "index_samples": 8,
+      "parsed_samples": 8,
+      "error": null,
+      "study_parts": [
+        "Cell"
+      ],
+      "parts": {
+        "Cell": 8
+      }
+    },
+    {
       "study_id": "MTBLS152",
       "index_samples": 135,
       "parsed_samples": 135,
@@ -6498,6 +6538,18 @@
       ],
       "parts": {
         "Stomach": 6
+      }
+    },
+    {
+      "study_id": "MTBLS15359",
+      "index_samples": 12,
+      "parsed_samples": 12,
+      "error": null,
+      "study_parts": [
+        "Cell"
+      ],
+      "parts": {
+        "Cell": 12
       }
     },
     {
@@ -6891,6 +6943,18 @@
       }
     },
     {
+      "study_id": "MTBLS15852",
+      "index_samples": 10,
+      "parsed_samples": 10,
+      "error": null,
+      "study_parts": [
+        "blood plasma"
+      ],
+      "parts": {
+        "blood plasma": 10
+      }
+    },
+    {
       "study_id": "MTBLS15856",
       "index_samples": 12,
       "parsed_samples": 12,
@@ -6912,6 +6976,18 @@
       ],
       "parts": {
         "feces": 71
+      }
+    },
+    {
+      "study_id": "MTBLS15875",
+      "index_samples": 25,
+      "parsed_samples": 25,
+      "error": null,
+      "study_parts": [
+        "Whole Organism"
+      ],
+      "parts": {
+        "Whole Organism": 25
       }
     },
     {
@@ -6948,6 +7024,90 @@
       ],
       "parts": {
         "Gastric cancer cell line AGS/HGC-27": 12
+      }
+    },
+    {
+      "study_id": "MTBLS15948",
+      "index_samples": 113,
+      "parsed_samples": 113,
+      "error": null,
+      "study_parts": [
+        "bile"
+      ],
+      "parts": {
+        "bile": 113
+      }
+    },
+    {
+      "study_id": "MTBLS15966",
+      "index_samples": 20,
+      "parsed_samples": 20,
+      "error": null,
+      "study_parts": [
+        "stomach"
+      ],
+      "parts": {
+        "stomach": 20
+      }
+    },
+    {
+      "study_id": "MTBLS16030",
+      "index_samples": 10,
+      "parsed_samples": 10,
+      "error": null,
+      "study_parts": [
+        "colon"
+      ],
+      "parts": {
+        "colon": 10
+      }
+    },
+    {
+      "study_id": "MTBLS16031",
+      "index_samples": 6,
+      "parsed_samples": 6,
+      "error": null,
+      "study_parts": [
+        "colon cancer cell lines"
+      ],
+      "parts": {
+        "colon cancer cell lines": 6
+      }
+    },
+    {
+      "study_id": "MTBLS16034",
+      "index_samples": 8,
+      "parsed_samples": 8,
+      "error": null,
+      "study_parts": [
+        "colon"
+      ],
+      "parts": {
+        "colon": 8
+      }
+    },
+    {
+      "study_id": "MTBLS16037",
+      "index_samples": 8,
+      "parsed_samples": 8,
+      "error": null,
+      "study_parts": [
+        "colon"
+      ],
+      "parts": {
+        "colon": 8
+      }
+    },
+    {
+      "study_id": "MTBLS16048",
+      "index_samples": 40,
+      "parsed_samples": 40,
+      "error": null,
+      "study_parts": [
+        "Organoid"
+      ],
+      "parts": {
+        "Organoid": 40
       }
     },
     {

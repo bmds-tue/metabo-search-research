@@ -1,11 +1,10 @@
 # Metabo-search research
 
-Reproducible research analyses built on public metadata from MetaboLights and
-Metabolomics Workbench. The repository contains one client-based reproduction
-of a human/blood sample census and a separate Workbench RefMet-overlap
-analysis.
+Reproducible findings from public metadata in MetaboLights and Metabolomics
+Workbench. Both findings live under [`reproductions/`](reproductions/): a
+human/blood sample census and a distinct Workbench RefMet-overlap analysis.
 
-## Human and blood-derived sample counts
+## Finding 1: human and blood-derived samples
 
 The census asks how many samples belong to human studies, and how many are
 blood-derived (blood, plasma, or serum). It counts sample rows, not unique
@@ -13,66 +12,72 @@ people, and excludes `seminal plasma`.
 
 | Repository | Human studies | Parsed sample rows | Blood-derived rows |
 |---|---:|---:|---:|
-| MetaboLights | 1,025 | 213,952 | 106,704 |
-| Metabolomics Workbench | 1,871 | 297,536 | 178,201 |
-| **Combined** | **2,896** | **511,488** | **284,905** |
+| MetaboLights | 1,038 | 214,334 | 106,714 |
+| Metabolomics Workbench | 1,873 | 303,561 | 183,775 |
+| **Combined** | **2,911** | **517,895** | **290,489** |
 
 Eight MetaboLights studies and two Workbench studies have no readable sample
 rows. Adding their study-index sample counts gives the full-coverage estimate
-of **512,337 samples**, of which **285,405 are estimated to be blood-derived**.
+of **518,744 samples**, of which **290,989 are estimated to be blood-derived**.
 The estimates are approximate because the missing studies cannot be classified
 at sample level. Repository indexes change over time; these are saved snapshot
 results, not live guarantees.
 
-See the [client-only reproduction](reproductions/human-blood-stats/README.md)
-for the method, per-study audit outputs, and instructions to rerun it. It counts
-rows directly from the two clients without materializing a full working-set
-database.
+See [`reproductions/human-blood-stats/`](reproductions/human-blood-stats/README.md)
+for the method, audit outputs, and rerun instructions. It counts directly from
+the repository clients without materializing a full working-set database.
 
-## Additional analysis: Workbench RefMet overlap
+## Finding 2: Workbench RefMet-name overlap
 
-[`analyses/workbench-refmet-only/`](analyses/workbench-refmet-only/README.md)
+[`reproductions/workbench-refmet-overlap/`](reproductions/workbench-refmet-overlap/README.md)
 compares normalized RefMet-name sets for human-sample-verified Workbench
-studies. Its saved 21 October 2026 DuckDB snapshot supports exact offline
-recomputation of the pair scores, exports, and plot. This is a distinct
-analysis and does not query MetaboLights.
+studies. The fresh snapshot contains 734 eligible studies and 269,011
+unordered pairs, with mean Jaccard overlap **0.085345 (8.53%)**. Its DuckDB
+snapshot supports exact offline recomputation of the pair scores, exports, and
+plot. This is a distinct finding and does not query MetaboLights.
 
-## Setup and reproduction
+## Reproduce from scratch
 
-Python 3.11 or newer is required. The client-only census uses Metabo-search at
-the pinned commit listed in `requirements.txt`.
+Python 3.11 or newer is required. From the repository root, install the census
+dependencies and run the live client acquisition:
 
 ```bash
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python reproductions/human-blood-stats/reproduce.py --workers 4
+python reproductions/human-blood-stats/reproduce.py \
+  --workers 4 --out reproductions/human-blood-stats/out
 ```
 
-The live run queries the public APIs and takes around 13 minutes. It writes
-per-study JSON and summary outputs to the reproduction's `out/` directory.
-Results can differ as upstream records change.
+This queries the public APIs and typically takes around 13 minutes. To acquire
+the RefMet finding from the live Workbench API as well, install its pinned
+dependencies and run its acquisition script:
 
-The auxiliary RefMet analysis has its own vendored client and dependencies; see
-its README for its live-run and offline `--recompute` commands.
+```bash
+python -m pip install -r reproductions/workbench-refmet-overlap/requirements.txt
+python reproductions/workbench-refmet-overlap/run_refmet_only.py
+```
 
-## Offline checks
+The RefMet script performs a fresh live acquisition, adds a run to its DuckDB
+database, and refreshes the CSV exports, manifest, and plot. Both findings may
+change as upstream records change.
 
-The offline smoke suite validates the saved census results and classification
-rules. It does not repeat the API acquisition:
+## Offline verification
+
+The offline smoke tests validate the saved census outputs and the saved RefMet
+DuckDB snapshot; they make no API requests:
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-The RefMet analysis can be recomputed offline from its included database:
+To recompute the RefMet pair scores and exports from the included snapshot
+without making API calls, use the run ID in its `manifest.json`:
 
 ```bash
-cd analyses/workbench-refmet-only
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python run_refmet_only.py --recompute 20261021T074807Z
+python reproductions/workbench-refmet-overlap/run_refmet_only.py \
+  --recompute 20261021T111615Z
 ```
 
 ## Interpretation and limitations
@@ -91,9 +96,9 @@ python3 -m venv .venv
 Research code is provided under the MIT License. The census depends on the
 separately maintained [Metabo-search](https://github.com/bmds-tue/metabo-search)
 project at the immutable commit pinned in `requirements.txt`. The RefMet
-analysis vendors a small client subset and preserves that upstream license in
-its `vendor/` directory. Repository data and metadata remain attributable to
-the respective public repositories.
+reproduction vendors a small client subset and preserves that upstream license
+in its `vendor/` directory. Repository data and metadata remain attributable
+to the respective public repositories.
 
 ## Publish to GitHub
 

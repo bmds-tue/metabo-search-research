@@ -1,12 +1,21 @@
 {
   "repository": "metabolomics_workbench",
-  "human_studies": 1871,
-  "human_samples_total": 297536,
-  "human_samples_total_estimate": 297581,
-  "human_samples_blood": 178201,
-  "human_samples_blood_estimate": 178201,
+  "human_studies": 1873,
+  "human_samples_total": 303561,
+  "human_samples_total_estimate": 303606,
+  "human_samples_blood": 183775,
+  "human_samples_blood_estimate": 183775,
   "studies_failed": 0,
   "per_study": [
+    {
+      "study_id": "ST005314",
+      "summary_samples": 19,
+      "factor_rows": 19,
+      "error": null,
+      "sources": {
+        "plasma": 19
+      }
+    },
     {
       "study_id": "ST005250",
       "summary_samples": 151,
@@ -2580,6 +2589,17 @@
       "error": null,
       "sources": {
         "hASCs": 15
+      }
+    },
+    {
+      "study_id": "ST004293",
+      "summary_samples": 6006,
+      "factor_rows": 6006,
+      "error": null,
+      "sources": {
+        "plasma": 2072,
+        "serum": 3483,
+        "_BLANK_": 451
       }
     },
     {
