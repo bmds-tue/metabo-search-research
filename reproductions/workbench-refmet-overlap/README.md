@@ -1,12 +1,12 @@
 # Workbench human-study RefMet overlap
 
-This is a **Metabolomics Workbench-only** analysis. It uses the Workbench `refmet_name` field only—no fallback names and no MetaboLights studies. The database and outputs contain only the human-study/sample evidence needed to audit inclusion, unique RefMet-name sets, pairwise scores, and summary statistics.
+This is a **Metabolomics Workbench-only** analysis. It compares values from the Workbench `refmet_name` field—no fallback to raw `metabolite_name` values and no MetaboLights studies. Distinct normalized values are treated as RefMet entries under the Workbench RefMet mapping. The database and outputs retain the human-study/sample evidence needed to audit inclusion, name sets, pairwise scores, and summary statistics.
 
 ## Dataset
 
 The full public Workbench summary corpus was refreshed through the API on 21 October 2026 (live run `20261021T111615Z`). It contained **4,646 studies**. The summary species field identified **1,903 human-tagged candidates**; sample records were inspected for those candidates. **1,890 studies** had at least one sample with human evidence. The remaining 13 candidates did not meet the sample rule and were excluded.
 
-Among the 1,890 sample-verified human studies, **1,411 had at least one non-empty `refmet_name`**. After keeping only distinct, non-empty RefMet names, **734 studies had at least 100 names** and entered the pairwise comparison. This produced **269,011 unique unordered study pairs**.
+Among the 1,890 studies with sample-level human evidence, **1,411 had at least one non-empty `refmet_name`**. The comparison deliberately focuses on studies with substantial RefMet annotation: **734 had at least 100 distinct normalized names** and entered the pairwise comparison. This produced **269,011 unique unordered study pairs**. The other 677 studies with names but fewer than 100 are outside this high-annotation subset.
 
 ## Results
 
@@ -27,7 +27,9 @@ For each pair of eligible studies, the Jaccard score is
 |RefMet names in both studies| / |RefMet names in either study|
 ```
 
-The **mean of 8.53%** says that, averaged over all pairs, the studies share a modest fraction of the names in their combined RefMet-name sets. The median is lower (5.99%) than the mean, indicating a right-skewed distribution: most pairs overlap less, while a smaller number overlap much more. Some pairs have no shared names; a few have identical sets. The population variance describes the spread of all pair scores in this selected corpus; its square root is a standard deviation of about 9.67 percentage points. The plot shows the full 0–1 range and a zoom of the dense region near zero.
+The **mean of 8.53%** is the arithmetic average, across the 269,011 pairs, of each pair's intersection divided by its union. The median is lower (5.99%): the typical pair in this selected set has lower overlap than the mean, while a smaller number of pairs overlap more. Some pairs share no names; at least one pair has identical sets. The population variance describes the spread of these pair scores in this selected corpus; its square root is a standard deviation of about 9.67 percentage points. The plot shows the full 0–1 range and a zoom of the dense region near zero.
+
+Read this as overlap in recorded RefMet-entry sets among studies with substantial annotation—not as an all-human-study estimate, and not as a claim about concentrations, analytical comparability, or biological similarity. The 100-name cutoff is intended to give a favorable, high-annotation comparison by excluding sparse lists; the reported metric is conditional on that selection.
 
 ![Distribution of pairwise Jaccard scores](jaccard_distribution.svg)
 
@@ -68,6 +70,6 @@ To reproduce the **saved snapshot exactly**, without API calls, rebuild the pair
 
 - The initial candidate screen uses the Workbench summary `species` field. Sample inspection was limited to the 1,903 human-tagged candidates, so human studies missing that summary annotation may be absent. The 13 candidates without human-sample evidence were excluded.
 - A study qualifies if it has at least one human sample. Workbench metabolite lists are study/analysis-level and may include identifications not specific to those human samples in mixed-species studies.
-- The API field is `refmet_name` (a name, not a separate RefMet identifier). Only non-empty values are used; `metabolite_name` is never substituted. The 100-name threshold applies to distinct normalized RefMet names.
-- Names are compared as text after Unicode NFKC normalization, whitespace collapsing, and case-folding. Synonyms, structures, or chemical identifiers are not reconciled, so chemically identical metabolites with different RefMet names remain different set elements.
+- The API field used is `refmet_name`; only non-empty values are used, and raw `metabolite_name` values are never substituted. The set key is the normalized RefMet mapping label, treated as the corresponding RefMet molecule entry; the script does not separately read an accession column or reconstruct identities from structures.
+- Values are normalized with Unicode NFKC, whitespace collapsing, and case-folding before deduplication. Thus the reported overlap is exact overlap at the normalized Workbench RefMet-label level.
 - Live API results may change. The included database and `--recompute` mode preserve the exact snapshot used for the reported metrics.

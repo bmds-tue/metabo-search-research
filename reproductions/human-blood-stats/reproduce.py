@@ -1,22 +1,26 @@
 #!/usr/bin/env python3
-"""Reproduce human / human-blood sample counts across the two repositories.
+"""Count repository sample/factor rows in studies tagged as human.
 
 Counts, per repository:
 
-* the number of studies whose organism/species is human,
-* the total number of human samples ("full stop"),
-* the number of human samples that are blood of some sort.
+* the number of studies tagged with a human organism/species,
+* the total number of returned sample/factor rows in those studies,
+* the number of rows whose source/tissue text matches the broad blood rule.
+
+The study-level tag does not establish that every row is a human biological
+specimen. Counts are rows, not unique people.
 
 Method
 ------
 * MetaboLights: ``search(organisms=["Homo sapiens"])`` then a deep ``inspect()``
-  of every human study; samples are counted from the parsed ISA sample sheets
-  and classified on the per-sample ``organism_part``. Studies that fail to
+  of every human-tagged study; every parsed ISA sample-sheet row is counted,
+  and ``organism_part`` is used for the broad blood-label tally. Studies that fail to
   inspect are recorded with their search-index ``sample_count`` so the
   undercount is explicit.
 * Metabolomics Workbench: the whole-index ``/ST/summary`` corpus is filtered to
-  ``species == "Homo sapiens"``; every human study's ``factors`` endpoint is
-  fetched and samples are counted per row and classified on ``sample_source``.
+  ``species == "Homo sapiens"``; every selected study's ``factors`` endpoint is
+  fetched, every returned row is counted, and ``sample_source`` is used for the
+  broad blood-label tally.
 
 Blood classification
 --------------------
@@ -57,7 +61,7 @@ _CANONICAL = frozenset({"blood plasma", "blood serum"})
 
 
 def is_blood(term: str) -> bool:
-    """True when a tissue/source term denotes blood of some sort."""
+    """True when tissue/source text matches the broad blood-label rule."""
     text = (term or "").strip().lower()
     if not text or any(bad in text for bad in _BLOOD_EXCLUDE):
         return False
@@ -100,7 +104,7 @@ def _inspect_one(ml: MetaboLights, hit: Any) -> dict[str, Any]:
 
 
 def collect_metabolights(workers: int, limit: int) -> dict[str, Any]:
-    """Count human and human-blood samples in MetaboLights."""
+    """Count rows in human-tagged MetaboLights studies."""
     ml = MetaboLights()
     try:
         hits = ml.search("", organisms=["Homo sapiens"], limit=limit)
@@ -187,7 +191,7 @@ def _factors_one(wb: Workbench, summary: Any) -> dict[str, Any]:
 
 
 def collect_workbench(workers: int) -> dict[str, Any]:
-    """Count human and human-blood samples in Metabolomics Workbench."""
+    """Count rows in human-tagged Workbench studies."""
     wb = Workbench()
     try:
         summaries = wb.all_studies()
@@ -229,8 +233,8 @@ def _fmt(value: int) -> str:
 
 def _print_table(ml: dict[str, Any], wb: dict[str, Any]) -> None:
     header = (
-        f"{'repository':<26}{'human studies':>14}{'human samples':>16}"
-        f"{'human blood':>14}{'est. samples':>14}{'est. blood':>12}"
+        f"{'repository':<26}{'human-tagged':>14}{'parsed rows':>16}"
+        f"{'blood-label rows':>18}{'est. rows':>14}{'est. blood':>12}"
     )
     print(header)
     print("-" * len(header))
@@ -238,7 +242,7 @@ def _print_table(ml: dict[str, Any], wb: dict[str, Any]) -> None:
         print(
             f"{label:<26}{_fmt(block['human_studies']):>14}"
             f"{_fmt(block['human_samples_total']):>16}"
-            f"{_fmt(block['human_samples_blood']):>14}"
+            f"{_fmt(block['human_samples_blood']):>18}"
             f"{_fmt(block['human_samples_total_estimate']):>14}"
             f"{_fmt(block['human_samples_blood_estimate']):>12}"
         )
@@ -250,15 +254,15 @@ def _print_table(ml: dict[str, Any], wb: dict[str, Any]) -> None:
     print("-" * len(header))
     print(
         f"{'COMBINED':<26}{_fmt(total_studies):>14}{_fmt(total_samples):>16}"
-        f"{_fmt(total_blood):>14}{_fmt(est_samples):>14}{_fmt(est_blood):>12}"
+        f"{_fmt(total_blood):>18}{_fmt(est_samples):>14}{_fmt(est_blood):>12}"
     )
     print(
-        "\n'est.' adds the search-index sample count for studies whose metadata\n"
-        "could not be parsed (see studies_unreliable). Parsed numbers are a\n"
-        "lower bound; the estimate is the comparable, full-coverage figure."
+        "\n'est.' adds study-index row counts for studies whose sample metadata\n"
+        "could not be read (see studies_unreliable). These are approximate row\n"
+        "totals, not sample-by-sample classifications or unique participants."
     )
     if est_samples:
-        print(f"\nblood share of human samples: {est_blood / est_samples:.1%}")
+        print(f"\nblood-label share of estimated rows: {est_blood / est_samples:.1%}")
 
 
 def main() -> int:
@@ -309,12 +313,12 @@ def main() -> int:
         ml = collect_metabolights(args.workers, args.limit)
         (args.out / "metabolights.json").write_text(json.dumps(ml, indent=2))
         print(
-            f"  {_fmt(ml['human_studies'])} human studies; "
-            f"{_fmt(ml['human_samples_total'])} samples; "
-            f"{_fmt(ml['human_samples_blood'])} blood "
-            f"({ml['studies_unreliable']} unreliable studies; "
-            f"est. {_fmt(ml['human_samples_total_estimate'])} samples, "
-            f"{_fmt(ml['human_samples_blood_estimate'])} blood)\n",
+            f"  {_fmt(ml['human_studies'])} human-tagged studies; "
+            f"{_fmt(ml['human_samples_total'])} rows; "
+            f"{_fmt(ml['human_samples_blood'])} blood-label rows "
+            f"({ml['studies_unreliable']} studies with unreadable metadata; "
+            f"est. {_fmt(ml['human_samples_total_estimate'])} rows, "
+            f"{_fmt(ml['human_samples_blood_estimate'])} blood-label rows)\n",
             flush=True,
         )
 
@@ -323,9 +327,9 @@ def main() -> int:
         wb = collect_workbench(args.workers)
         (args.out / "workbench.json").write_text(json.dumps(wb, indent=2))
         print(
-            f"  {_fmt(wb['human_studies'])} human studies; "
-            f"{_fmt(wb['human_samples_total'])} samples; "
-            f"{_fmt(wb['human_samples_blood'])} blood\n",
+            f"  {_fmt(wb['human_studies'])} human-tagged studies; "
+            f"{_fmt(wb['human_samples_total'])} rows; "
+            f"{_fmt(wb['human_samples_blood'])} blood-label rows\n",
             flush=True,
         )
 
