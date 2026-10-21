@@ -1,0 +1,5 @@
+# Pinned client version used for the saved census snapshot.
+metabo-search @ git+https://github.com/bmds-tue/metabo-search.git@4ee8d01525a898b83dfcd3ec408e372f013236f8
+
+# Used by the offline check for the included RefMet snapshot.
+duckdb>=1.1

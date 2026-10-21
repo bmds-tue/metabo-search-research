@@ -1,0 +1,735 @@
+study_id,title,species,sample_count,human_sample_count,refmet_rows,unique_refmet_names
+ST000002,Intestinal Samples II pre/post transplantation,Homo sapiens,12,12,142,137
+ST000004,Lipidomics studies on NIDDK / NIST human plasma samples,Homo sapiens,1,1,540,537
+ST000009,Mixed meal tolerance,Homo sapiens,114,114,402,356
+ST000010,Lung Cancer Cells 4,Homo sapiens,39,39,410,367
+ST000011,African Metabolomics,Homo sapiens,40,40,250,224
+ST000016,NPM-ALK metabolic regulation,Homo sapiens,110,110,477,442
+ST000041,High PUFA diet in humans,Homo sapiens,35,35,575,435
+ST000042,BALF Control vs ALI by RPLC-MS,Homo sapiens,23,23,525,376
+ST000043,MDA-MB-231 cells and p38 gamma knockdown,Homo sapiens,30,30,246,216
+ST000044,Pilot experiment looking for the existence of certain molecules in pancreatic cancer cells,Homo sapiens,6,6,814,542
+ST000045,Plasma metabolomics:  Comparison of non-diabetic controls with T1D patients,Homo sapiens,14,14,159,109
+ST000046,"Identification of altered metabolic pathways in Alzheimer's disease, mild cognitive impairment and cognitively normals using Metabolomics (plasma)",Homo sapiens,45,45,1783,635
+ST000047,"Identification of altered metabolic pathways in Alzheimer's disease, mild cognitive impairment and cognitively normals using Metabolomics (CSF)",Homo sapiens,45,45,1625,734
+ST000058,Metabolite changes associated with methionine stress sensitivity of cancer (GC TOF MS analysis),Homo sapiens,28,28,141,134
+ST000061,Metabolic Profiling of Visceral and Subcutaneous Adipose Tissue from Colorectal Cancer Patients: GC-TOF MS analyis of subcutaneous and visceral adipose tissue samples,Homo sapiens,130,130,133,125
+ST000062,Biomarkers for Depression in Human Plasma in a Population Sample,Homo sapiens,97,97,143,135
+ST000063,Biomarkers for Depression in Human Cerebrospinal Fluid in a Population Sample,Homo sapiens,97,97,158,152
+ST000065,Metabolic Profiling of Visceral and Subcutaneous Adipose Tissue from Colorectal Cancer Patients: GC-TOF MS analyis of serum samples,Homo sapiens,59,59,143,135
+ST000076,A549 Cell Study,Homo sapiens,6,6,2633,331
+ST000077,Metabolite changes associated with methionine stress sensitivity of cancer (CSH QTOF MS analysis),Homo sapiens,30,30,278,232
+ST000081,Metabolic Profiling of Visceral and Subcutaneous Adipose Tissue from Colorectal Cancer Patients: UHPLC-QTOF MS analyis of subcutaneous and visceral adipose tissue samples,Homo sapiens,118,118,191,174
+ST000082,Metabolic Profiling of Visceral and Subcutaneous Adipose Tissue from Colorectal Cancer Patients: UHPLC-QTOF MS analyis of serum samples,Homo sapiens,63,63,309,263
+ST000087,A study of changes in lipid metabolism of ovarian cancer cells co-cultured with adipocytes: GC-TOF MS analysis,Homo sapiens,79,79,188,178
+ST000089,A study of changes in lipid metabolism of ovarian cancer cells co-cultured with adipocytes: UHPLC-QTOF MS analysis,Homo sapiens,47,47,507,272
+ST000092,A statistical analysis of the effects of urease pre-treatment on the measurement of the urinary metabolome by gas chromatographymass spectrometry,Homo sapiens,235,235,111,104
+ST000093,Metabolomics Analysis of Frontal Fibrosing Alopecia,Homo sapiens,30,30,320,311
+ST000096,A study of changes in lipid metabolism of ovarian cancer cells co-cultured with adipocytes: UPLC-QTRAP MS analysis,Homo sapiens,44,44,109,102
+ST000105,SCOR Metabolomics,Homo sapiens,112,112,824,548
+ST000106,IWMS Study 1:Weight comparison of obese and lean patients,Homo sapiens,64,64,830,558
+ST000110,SIRM Analysis of human P493 cells under hypoxia  in [U-13C/15N] labeled Glutamine medium (Both positive and ion mode FTMS),Homo sapiens,8,8,5498,896
+ST000113,SIRM Analysis of human P493 cells under hypoxia  in [U-13C/15N] labeled Glutamine medium (Positive ion mode FTMS),Homo sapiens,8,8,1634,437
+ST000114,SIRM Analysis of human P493 cells under hypoxia in [U-13C] labeled Glucose medium,Homo sapiens,8,8,13651,975
+ST000136,NIST lipidomics intralaboratory study,Homo sapiens,9,9,239,238
+ST000142,H1299 13C-labeled Cell Study,Homo sapiens,4,4,2846,734
+ST000148,A549 13C-labeled Cell Study,Homo sapiens,5,5,10352,1459
+ST000150,Association of Metabolic Profile and Microbiome in Chronic Pressure Ulcer Wounds,Homo sapiens,8,8,121,118
+ST000221,"Normal plasma cells,Low proliferation multiple myeloma and High proliferation multiple myeloma cells",Homo sapiens,3,3,203,127
+ST000230,Comprehensive analysis of transcriptome and metabolome in Intrahepatic Cholangiocarcinoma and Hepatocellular Carcinoma,Homo sapiens,24,24,380,292
+ST000231,Comprehensive analysis of transcriptome and metabolome in Intrahepatic Cholangiocarcinoma and Hepatocellular Carcinoma (part II),Homo sapiens,9,9,343,270
+ST000241,Cyclobutene- and cyclobutane-functionalized fatty acids as novel biochemical probes of structure and function in HepG2 cells,Homo sapiens,24,24,430,346
+ST000242,"Whole unconditioned medium (Defined culture media, M199),Whole M1 medium,Whole M2 medium",Homo sapiens,9,9,389,269
+ST000248,Metabolic heterogeneity in Glioblastoma,Homo sapiens,6,6,494,283
+ST000270,Metabolomics in AML,Homo sapiens,27,27,162,114
+ST000284,Colorectal Cancer Detection Using Targeted Serum Metabolic Profiling,Homo sapiens,224,224,113,104
+ST000288,Metabolomic profiling of AML Cell Lines,Homo sapiens,24,24,151,103
+ST000291,LC-MS Based Approaches to Investigate Metabolomic Differences in the Urine of Young Women after Drinking Cranberry Juice or Apple Juice,Homo sapiens,45,45,2533,1211
+ST000292,LC-MS Based Approaches to Investigate Metabolomic Differences in the Plasma of Young Women after Drinking Cranberry Juice or Apple Juice,Homo sapiens,51,51,1017,553
+ST000329,Minimal change disease and focal segmental sclerosis in urine,Homo sapiens,30,30,287,205
+ST000355,GC/MS and LC/MS metabolomics profiling for breast cancer plasma data and control plasma data,Homo sapiens,211,211,227,198
+ST000356,GC/MS and LC/MS metabolomics profiling for breast cancer serum data and control serum data,Homo sapiens,134,134,272,231
+ST000368,Investigation of metabolomic blood biomarkers for detection of adenocarcinoma lung cancer,Homo sapiens,192,192,152,145
+ST000369,Investigation of metabolomic blood biomarkers for detection of adenocarcinoma lung cancer (part II),Homo sapiens,181,181,181,163
+ST000379,Temporal metabolomic responses of cultured HepG2 liver cells to high fructose and high glucose exposures,Homo sapiens,78,78,113,106
+ST000381,Urinary Metabolites in IC/PBS Diagnosis (part I),Homo sapiens,92,92,200,178
+ST000385,Investigation of metabolomic blood biomarkers for detection of adenocarcinoma lung cancer (training set),Homo sapiens,192,192,152,145
+ST000386,Investigation of metabolomic blood biomarkers for detection of adenocarcinoma lung cancer (test/validation),Homo sapiens,180,180,181,163
+ST000389,Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer (part II),Homo sapiens,95,95,128,119
+ST000390,Metabolomic markers of altered nucleotide metabolism in early stage adenocarcinoma (part I),Homo sapiens,87,87,183,174
+ST000392,Systemic Metabolomic Changes in Blood Samples of Lung Cancer Patients Identified by Gas Chromatography Time-of-Flight Mass Spectrometry,Homo sapiens,183,183,158,148
+ST000396,Lung Cancer Plasma Discovery,Homo sapiens,299,299,129,121
+ST000403,Metabolomics-based elucidation of active metabolic pathways in erythrocytes and HSC-derived reticulocytes,Homo sapiens,18,18,1131,864
+ST000404,Role of HVCN1 in B cell malignancies,Homo sapiens,12,12,180,171
+ST000405,Metabolomic Profiling in Early Pregnancy using Pre-Diagnostic Sera from Women Who Developed Placental Abruption,Homo sapiens,111,111,269,196
+ST000412,Metabolic profiling during ex vivo machine perfusion of the human liver (part I),Homo sapiens,96,96,155,146
+ST000418,The role of CFTR in the regulation of intrinsic defense mechanisms of exocrine secretions,Homo sapiens,22,22,121,100
+ST000420,NIST SRM Smoker non-Smoker Urine Comparison,Homo sapiens,20,20,126,106
+ST000421,Type 1 Diabetes poor glycemic control versus control samples,Homo sapiens,222,222,1517,664
+ST000422,Type 1 Diabetes good glycemic control and controls samples,Homo sapiens,180,180,2125,834
+ST000424,Metabolomics Approach to Allograft Assessment in Liver Transplantation (part II),Homo sapiens,25,25,170,127
+ST000444,Preconcentration of organic solutes in urine by bubble bursting,Homo sapiens,4,4,170,132
+ST000445,Follicular fluid lipidomics reveals lipid alterations by LH addition during IVF cycles,Homo sapiens,28,28,505,411
+ST000448,Emory University high-resolution metabolomic profiling of ring trial samples,Homo sapiens,61,61,205,175
+ST000450,Metabolic features of chronic fatigue syndrome,Homo sapiens,84,84,449,434
+ST000465,Uniquely Tumor-Selective Englerin A Profoundly Alters Lipid Metabolism in Renal Cell Carcinoma inducing ER-Stress and an Acute Inflammatory Response,Homo sapiens,16,16,582,569
+ST000523,Prenatal exposures and Metabolite and Lipid Profiles,Homo sapiens,174,174,732,535
+ST000539,Metabolomics-based elucidation of active metabolic pathways in erythrocytes and HSC-derived reticulocytes (part II),Homo sapiens,18,18,1128,863
+ST000544,CHEAR Urine Reference Material Proficiency Test Biocrates,Homo sapiens,16,16,266,192
+ST000545,CHEAR Plasma Reference Material Proficiency Test Biocrates,Homo sapiens,16,16,268,196
+ST000550,Metabolomics marker of brown adipose tissue in men,Homo sapiens,59,59,163,157
+ST000552,Metabolite signatures in trauma patients with venous thromboembolism (VTE),Homo sapiens,40,40,374,224
+ST000553,CHEAR UT Urine and Plasma Pool Characterization,Homo sapiens,12,12,255,198
+ST000566,Large Scale C18 Profiling of the Effects of Curcumin Supplementation of Older Adults: Relation to Vascular Function (part 5),Homo sapiens,288,288,181,130
+ST000567,Large Scale HILIC Profiling of the Effects of Curcumin Supplementation of Older Adults: Relation to Vascular Function (part 6),Homo sapiens,288,288,264,201
+ST000568,Metabolomic study on a schizophrenia and type 2 diabetes susceptibility gene,Homo sapiens,147,147,273,184
+ST000583,The Metabolomics of Oral Biofilms exposed to Arginine and Fluoride,Homo sapiens,61,61,250,156
+ST000586,Evaluation of specific concentrations for use in experimental protocol,Homo sapiens,32,32,153,127
+ST000589,Effects of dilution on analyte identification and quantification,Homo sapiens,330,330,141,132
+ST000608,Comparing identified and statistically significant lipids and polar metabolites in 15-year old serum and dried blood spot samples for longitudinal studies,Homo sapiens,60,60,422,346
+ST000612,Sphingolipid Analysis of Human Aqueous Humor in Glaucomatous and Control eyes (part I),Homo sapiens,40,40,210,191
+ST000613,Human TM Sphingolipid Analysis (part II),Homo sapiens,40,40,205,184
+ST000614,Tobacco-specific carcinogens in Bladder Cancer,Homo sapiens,143,143,174,143
+ST000616,Human Aqueous Humor Phospholipids in Control and Glaucomatous eyes,Homo sapiens,40,40,696,670
+ST000617,Validation of the application of targeted metabolomic appraoch in the diagnosis of CFS,Homo sapiens,38,38,383,375
+ST000624,Human trabecular meshowrk phospholipid profiles of control and glaucomatous eyes,Homo sapiens,40,40,770,740
+ST000661,CHOICE clinical weight loss study,Homo sapiens;Rattus norvegicus,93,61,2037,811
+ST000662,Lipidomics of hormone-sensitive lipase variants,Homo sapiens,8,8,813,571
+ST000663,Metabolic Syndrome Plasma Lipidomics,Homo sapiens,40,40,575,400
+ST000664,Nutritional Psychiatric Illness Studies,Homo sapiens,165,165,777,525
+ST000665,Nonalcoholic fatty liver disease (NAFLD) Studies,Homo sapiens,22,22,965,739
+ST000668,Diet manipulation on the lipidome,Homo sapiens,44,44,505,379
+ST000669,Characterization of Retinal Exudates in Coats Disease - lipid profile,Homo sapiens,5,5,486,369
+ST000673,Lipidomics in (SIDS) Sudden Infant Death Syndrome,Homo sapiens,33,33,418,405
+ST000675,Effects of rosiglitazone treatment on lipid composition,Homo sapiens,16,16,325,312
+ST000677,Nonalcoholic steatohepatitis (NASH) changes with S.Q. Leptin administrations,Homo sapiens,21,21,335,334
+ST000678,Functional genomics study on Non Alcoholic fatty liver disease (NAFLD),Homo sapiens,18,18,451,450
+ST000679,Functional genomics study on Non Alcoholic fatty liver disease (NAFLD) - part II,Homo sapiens,24,24,504,501
+ST000680,Functional genomics study on Non Alcoholic fatty liver disease (NAFLD) - part III,Homo sapiens,17,17,420,417
+ST000685,Lipidomics analysis for human liver cell lines,Homo sapiens,17,17,450,449
+ST000688,Biomarkers for different types of Multiple Scelerosis (MS) (BMS vs SPMS lipidomics),Homo sapiens,33,33,394,389
+ST000689,Influence of Noxa knockdown on cell metabolism,Homo sapiens,7,7,636,348
+ST000695,Pilot metabolomics study of aromatase inhibitor associated arthralgias,Homo sapiens,101,101,1413,837
+ST000697,Cytokines correlation with metabolomic profiling of psoriatic and normal skin,Homo sapiens,16,16,569,342
+ST000698,Metabolomics analysis of Sirt5 knockdown (KD) melanoma,Homo sapiens,31,31,473,280
+ST000699,Human vitreous amino acid & lipid analysis,Homo sapiens,14,14,180,147
+ST000708,Metabolic effects of weight reduction of very low energy diet vs dietary counseling,Homo sapiens,22,22,468,421
+ST000711,Microbial ecology of nontuberculous mycobacteria (NTM) in cystic fibrosis (CF) sputum,Homo sapiens,24,24,258,177
+ST000713,Metabolic profiling of cyst fluid from patients with Intraductal Pancreatic Mucinous Neoplasm,Homo sapiens,12,12,332,203
+ST000721,Metabolomic Profiles of Recovery from Traumatic Brain Injury,Homo sapiens,256,256,228,165
+ST000725,"Metabolome, body composition, and muscle performance in children",Homo sapiens,11,11,346,225
+ST000726,Polycystic Ovarian Syndrome(PCOS) metabolomics,Homo sapiens,89,89,176,127
+ST000741,Metabolite-phenotype link in X-linked Adrenoleukodystrophy (fibroblast cell culture),Homo sapiens,19,19,659,355
+ST000743,Metabolomics of bariatric weight loss,Homo sapiens,14,14,642,569
+ST000744,Metabolomics of intensive weight management clinic (IWMC) weight loss,Homo sapiens,26,26,543,475
+ST000748,Placental cells (BeWo) phthalate exposure metabolomics,Homo sapiens,18,18,240,153
+ST000763,Untargeted metabolomics and lipidomics of scleroderma PAH discovery cohort,Homo sapiens,218,218,673,552
+ST000768,Metabolites of human neurons and stem cells (siNeuron metabolomics),Homo sapiens,4,4,329,195
+ST000775,Michigan Biomarkers for Refractory Depression (Bluebird) metabolomics pilot study,Homo sapiens,33,33,1305,842
+ST000777,Metabolic Adaptations to Chronic and Acute Exercise in Overweight Adults (ATX-Study) preliminary data,Homo sapiens,10,10,277,273
+ST000783,Absolute Quantification of 180 metabolites in serum from african american and european american in prostate cancer and case control samples,Homo sapiens,94,94,186,186
+ST000784,metabolome in a group of AA and EA matched pairs of prostate cancer (PCa) and benign adjacent tissues,Homo sapiens,92,92,188,181
+ST000818,Integrated nutrigenomic and metabolomic analysis of Africans with variable diet,Homo sapiens,450,450,632,555
+ST000819,Looking for changes in lipid levels with knock out of ACADM (shACADM) (part II),Homo sapiens,12,12,449,440
+ST000823,Metabolic profiling of cyst fluid from patients with Intraductal Pancreatic Mucinous Neoplasm (part II),Homo sapiens,10,10,890,579
+ST000825,CHEAR Christiani Biocrates,Homo sapiens,241,241,268,196
+ST000841,Metabolomics of muscle in insulin sensitive and resistant obese indivduals.,Homo sapiens,28,28,602,535
+ST000842,Muscle and plasma before and after exercise,Homo sapiens,62,62,1108,685
+ST000876,Human serum for a patient with neuropathy being treated with L-serine.,Homo sapiens,13,13,111,108
+ST000899,"Alterations in Lipid, Amino Acid, and Energy Metabolism Distinguish Crohn Disease from Ulcerative Colitis and Control Subjects by Serum Metabolomic Profiling",Homo sapiens,60,60,671,642
+ST000915,Biomarkers of NAFLD progression: a lipidomics approach to an epidemic. Part 1:Liver,Homo sapiens,88,88,542,532
+ST000916,Biomarkers of NAFLD progression: a lipidomics approach to an epidemic. Part 2:Plasma,Homo sapiens,88,88,475,465
+ST000917,Biomarkers of NAFLD progression: a lipidomics approach to an epidemic. Part 3:Urine,Homo sapiens,88,88,335,330
+ST000919,Investigating Eicosanoids Implications on the Blood Pressure Response to Thiazide Diuretics,Homo sapiens,140,140,303,181
+ST000923,Longitudinal Metabolomics of the Human Microbiome in Inflammatory Bowel Disease,Homo sapiens,546,546,596,457
+ST000946,Untargeted Metabolomics of T1 Participants,Homo sapiens,207,207,268,181
+ST000954,Explore Metabolites and Pathways Associated Increased Airway Hyperresponsiveness in Asthma,Homo sapiens,55,55,354,196
+ST000956,Determine metabolomics signatures important for the ability of Streptococus gallolyticus to promote colon cancer cell proliferation,Homo sapiens,40,40,239,142
+ST000957,Global metabolomics of human milk fractions,Homo sapiens,12,12,274,163
+ST000974,GC6-74 matabolomic of TB (Part 1: Plasma),Homo sapiens,366,366,699,637
+ST000975,GC6-74 metabolomics of TB vs healthy (Part 2: Serum),Homo sapiens,340,340,681,615
+ST000976,GC6-74 matabolomic of TB (Part 3: Plasma_RPMI),Homo sapiens,45,45,535,497
+ST000978,Metabolomics biomarkers and the risk of overall mortality and ESRD in CKD: results from the Progredir Cohort.,Homo sapiens,450,450,293,156
+ST000983,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (Part I),Homo sapiens,138,138,689,275
+ST000984,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (part II),Homo sapiens,138,138,689,275
+ST000985,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (part III),Homo sapiens,138,138,689,275
+ST000986,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (part IV),Homo sapiens,138,138,689,275
+ST000987,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (part V),Homo sapiens,138,138,689,275
+ST000988,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (part VI),Homo sapiens,138,138,689,275
+ST000989,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (part VII),Homo sapiens,139,139,689,275
+ST000990,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (part VIII),Homo sapiens,138,138,689,275
+ST000991,Validating Quantitative Untargeted Lipidomics Across Nine Liquid Chromatography−High-Resolution Mass Spectrometry Platforms (part IX),Homo sapiens,138,138,689,275
+ST000992,Metabolomic Markers of Dietary Patterns in the Costa Rica Study,Homo sapiens,79,79,663,497
+ST001000,Gut microbiome structure and metabolic activity in inflammatory bowel disease,Homo sapiens,220,220,387,326
+ST001004,Denver Asthma Panel Study-CHEAR Ancillary Study,Homo sapiens,168,168,143,116
+ST001037,High Resolution GC-MS and FID Metabolomics of Human Serum,Homo sapiens,24,24,294,206
+ST001039,Denver Asthma Panel Study-CHEAR Ancillary Study (part II),Homo sapiens,405,405,156,130
+ST001040,"Maternal gut microbiome, pregnancy exposure to environmental contaminants, and child health outcomes: A pilot study exploring potential effect modifications by diet",Homo sapiens,26,26,277,243
+ST001047,1H-NMR urinary metabolomic profiling for diagnosis of gastric cancer.,Homo sapiens,123,123,129,128
+ST001048,Pediatric Inner-City Environmental Exposures at School and Home and Asthma Study,Homo sapiens,190,190,379,236
+ST001074,Open source discovery of starting points for next generation chemoprotective antimalarial drugs (Biofocus 1),Homo sapiens,47,47,113,107
+ST001111,Breast Cancer Lipidomics Tissue,Homo sapiens,118,118,777,455
+ST001113,Exposure to Oral Contraceptives Alters Human Endometrial Stem Cells Culture Media Metabolomics,Homo sapiens,15,15,188,187
+ST001114,Metabolomics profile of umbilical cord blood is associated with maternal pre-pregnant obesity in a perspective multi-ethnic cohort displaying health disparities,Homo sapiens,57,57,230,230
+ST001118,Metabolomics profiles of patients with Wilson disease reveal a distinct metabolic signature,Homo sapiens,110,110,115,111
+ST001121,Identification of urine metabolites in patients with interstitial cystitis using untargeted metabolomics (part I),Homo sapiens,43,43,193,182
+ST001122,Identification of urine metabolites in patients with interstitial cystitis using untargeted metabolomics (part II),Homo sapiens,43,43,555,398
+ST001131,Presentation of different serum metabolites in trauma patients versus healthy volunteers.,Homo sapiens,12,12,134,130
+ST001133,Downregulation of CENPF epigenetically remodels prostate cancer cells and alters cellular metabolism,Homo sapiens,6,6,163,153
+ST001135,Different dose exposure of OPC-163493 on HepG2 cells (part-I),Homo sapiens,8,8,104,104
+ST001142,Cancer Cell Line Encyclopedia Metabolomics,Homo sapiens,928,928,225,213
+ST001151,4-day dietary effect of fast food vs Mediterranean diet to HDL lipidome,Homo sapiens,40,40,170,133
+ST001167,Comprehensive Profiling by Non-targeted Stable Isotope Tracing Capillary Electrophoresis-Mass Spectrometry,Homo sapiens,46,46,1538,175
+ST001176,Metabolite changes in human plasma before and after YF17D vaccination in symptomatic and asymptomatic subjects,Homo sapiens,26,26,110,110
+ST001192,A library of human gut bacterial isolates paired with longitudinal multiomics data enables mechanistic microbiome research,Homo sapiens,180,180,489,379
+ST001210,Comprehensive UHPLC-MS/MS lipidomics profiling to study effects of betulin on keratinocytes,Homo sapiens,20,20,940,529
+ST001211,"Metabolomic Markers of Methotrexate Response, In Vitro",Homo sapiens,20,20,934,688
+ST001212,"Fish-oil supplementation in pregnancy, child metabolomics and asthma risk",Homo sapiens,577,577,656,623
+ST001214,Lipidommics in the serum of human subjects,Homo sapiens,60,60,109,106
+ST001215,Effect of Mirabegron Treatment on serum lipidome,Homo sapiens,22,22,113,106
+ST001235,Metabolic responses to PD1 immune-checkpoint blockade and association with therapeutic benefits - Part I,Homo sapiens,212,212,107,106
+ST001236,Metabolic responses to PD1 immune-checkpoint blockade and association with therapeutic benefits - Part II,Homo sapiens,244,244,205,199
+ST001237,Metabolic responses to PD1 immune-checkpoint blockade and association with therapeutic benefits - Part III,Homo sapiens,1221,1221,205,199
+ST001241,"Global Metabolic Analysis Trisomy 21 - Cohort 3, Plasma",Homo sapiens,258,258,149,146
+ST001242,"Global Metabolic Analysis Trisomy 21 - Cohort 3, CSF",Homo sapiens,200,200,105,102
+ST001246,TFPa/HADHA is required for fatty acid beta-oxidation and cardiolipin re-modeling in human cardiomyocytes (part-I),Homo sapiens,17,17,202,180
+ST001251,"The effects of a training program encompassing cold exposure, breathing exercises, and meditation on plasma metabomics during experimental human endotoxemia",Homo sapiens,138,138,224,151
+ST001259,"Targeted Metabolomic Analysis in Patients with Wilson Disease Reveals Dysregulated Choline, Methionine and Aromatic Amino Acid Metabolism: Implications for Hepatic and Neurological Phenotypes",Homo sapiens,76,76,131,109
+ST001267,Mass spectrometry-based lipidomics of oral squamous cell carcinoma tissue reveals aberrant cholesterol and glycerophospholipid metabolism,Homo sapiens,20,20,1370,1370
+ST001269,Exosomal lipids for classifying early and late stage non-small cell lung cancer,Homo sapiens,95,95,1320,483
+ST001317,"Dynamics of Exposure, Phthalates, and Asthma in a Randomized Trial (DEPART)",Homo sapiens,448,448,203,180
+ST001322,Maternal adiposity alters the human milk metabolome: a link between non-glucose monosaccharides and infant adiposity,Homo sapiens,386,386,124,122
+ST001325,Obesity and Poor Diet as Susceptibility Factors for Secondhand Smoke in Childhood Asthma,Homo sapiens,256,256,291,250
+ST001359,Monophasic lipidomics extraction in cancer cell line,Homo sapiens,6,6,446,439
+ST001360,Maternal blood lipidomics associated with severe preeclampsia,Homo sapiens,64,64,698,667
+ST001363,Monophasic lipidomics extraction in cancer cell lines,Homo sapiens,18,18,558,547
+ST001364,Core Functional Nodes and Sex-Specific Pathways in Human Ischemic and Dilated Cardiomyopathy,Homo sapiens,44,44,126,122
+ST001383,Investigating exposures and health impacts of endocrine disrupting chemicals among inner-city children.,Homo sapiens,86,86,365,241
+ST001384,Plasmodium falciparum increased time in circulation underlies persistent asymptomatic infection in the dry season,Homo sapiens,37,37,146,144
+ST001385,Microbial and metabolic variations mediate the influence of childhood and adolescent EDC and trace element exposure on breast density.,Homo sapiens,438,438,298,247
+ST001400,Identification of distinct metabolic perturbations and associated immunomodulatory events during intra-erythrocytic development stage of pediatric Plasmodium falciparum malaria,Homo sapiens,199,199,668,626
+ST001402,Ontogeny related changes in the pediatric liver metabolome,Homo sapiens,48,48,427,416
+ST001403,Ontogeny related changes in the pediatric liver metabolome (part-II),Homo sapiens,48,48,660,628
+ST001404,Ontogeny related changes in the pediatric liver metabolome (part-III),Homo sapiens,50,50,667,633
+ST001405,MDM2-Dependent Rewiring of Metabolomic and Lipidomic Profiles in Dedifferentiated Liposarcoma Models,Homo sapiens,92,92,481,424
+ST001411,Plasma metabolites of lipid metabolism associate with diabetic polyneuropathy in a cohort with screen-tested type 2 diabetes: ADDITION-Denmark,Homo sapiens,106,106,991,902
+ST001412,Metabolomics study in Plasma of Obese Patients with Neuropathy Identifies Potential Metabolomics Signatures,Homo sapiens,131,131,842,765
+ST001420,Metabolomic analysis of patients with recurrent angina,Homo sapiens,750,750,600,591
+ST001441,Metabolomics of patient-derived fibroblasts,Homo sapiens,56,56,349,251
+ST001442,Human Optic Nerve Glaucoma and Control Lipidomes,Homo sapiens,23,23,4098,3084
+ST001451,Eleostearic acid effects on TAGs and oxLipids,Homo sapiens,47,47,661,504
+ST001490,Plasma lipidomic profiles after a low and high glycemic load dietary pattern in a randomized controlled cross over feeding study,Homo sapiens,240,240,1072,1070
+ST001515,A Metabolomic Signature of Glucagon Action in Healthy Individuals with Overweight/Obesity Humans,Homo sapiens,187,187,649,595
+ST001516,Identification of distinct metabolic perturbations and associated immunomodulatory events during intra-erythrocytic development stage of pediatric Plasmodium falciparum malaria (part-II),Homo sapiens,199,199,668,626
+ST001517,Identification of distinct metabolic perturbations and associated immunomodulatory events during intra-erythrocytic development stage of pediatric Plasmodium falciparum malaria (part-III),Homo sapiens,106,106,652,611
+ST001519,Stool metabolites of known identity profiled using hybrid nontargeted methods (part-I),Homo sapiens,166,166,537,476
+ST001521,Plasma metabolites of known identity profiled using hybrid nontargeted methods (part-III),Homo sapiens,160,160,567,510
+ST001527,Lung cancer metabolomics analysis,Homo sapiens,72,72,824,181
+ST001547,β-Adrenergic regulation of metabolism in macrophages (part-I),Homo sapiens,8,8,906,672
+ST001548,β-Adrenergic regulation of metabolism in macrophages (part-II),Homo sapiens,8,8,680,530
+ST001549,β-Adrenergic regulation of metabolism in macrophages (part-III),Homo sapiens,16,16,930,704
+ST001639,Plasma Metabolomic signatures of COPD in a SPIROMICS cohort,Homo sapiens,649,649,1174,1042
+ST001644,In Vitro Characterization and Metabolomic Analysis of Cold-Stored Platelets,Homo sapiens,160,160,163,157
+ST001669,Serum metabolome of Guangzhou Nutrition and Health Study (GNHS),Homo sapiens,1014,1014,199,197
+ST001676,"Lipidomic analysis of CD4+ T-cell subsets (Th1,Th2,Th17 and iTreg cells) (part I)",Homo sapiens,46,46,130,123
+ST001686,Exposure to per- and polyfluoroalkyl substances associates with altered lipid profile of breast milk (Part 3),Homo sapiens,38,38,178,144
+ST001689,Exposure to per- and polyfluoroalkyl substances associates with altered lipid profile of breast milk (Part 1),Homo sapiens,88,88,261,182
+ST001690,Untargeted metabolomic analysis of human blood samples via qualitative GC-MS for T1D biomarker identification,Homo sapiens,11,11,111,101
+ST001692,Perfluoroalkyl substances and lipid composition in human milk,Homo sapiens,527,527,201,175
+ST001709,SARS-CoV-2 infection rewires host cell metabolism and is potentially susceptible to mTORC1 inhibition,Homo sapiens,42,42,1117,126
+ST001710,Metabolic signatures of NAFLD - Lipidomics data (part 1 of 3),Homo sapiens,627,627,176,149
+ST001719,Metabolomics Analysis of Philadelphia Cohort - Update (part-I),Homo sapiens,28,28,179,173
+ST001720,Metabolomics Analysis of ACTG Cohort -Update (part-II),Homo sapiens,81,81,226,204
+ST001730,Mitochondrial ATP fuels ABC transporter-mediated drug efflux in cancer chemoresistance,Homo sapiens,8,8,179,174
+ST001731,Mitochondrial ATP fuels ABC transporter-mediated drug efflux in cancer chemoresistance (part-II),Homo sapiens,8,8,133,130
+ST001732,Mitochondrial ATP fuels ABC transporter-mediated drug efflux in cancer chemoresistance (part-III),Homo sapiens,8,8,131,124
+ST001735,The COVIDome Explorer Researcher Portal (Red Blood Cells),Homo sapiens,102,102,117,116
+ST001736,The COVIDome Explorer Researcher Portal (blood plasma),Homo sapiens,102,102,121,120
+ST001738,AdipoAtlas: A Reference Lipidome for Human White Adipose Tissue,Homo sapiens,18,18,737,675
+ST001749,REACH Metabolomics Study,Homo sapiens,46,46,881,819
+ST001753,Modifying Chromatography Conditions for Improved Unknown Feature Identification in Untargeted Metabolomics,Homo sapiens,8,8,449,338
+ST001764,Application of the redox metabolite detection method for profiling redox state following pharmacologic perturbation with methotrexate,Homo sapiens,40,40,214,184
+ST001765,Optimization of redox metabolite detection in mammalian cells (part I),Homo sapiens,35,35,214,185
+ST001769,Application of the redox metabolite detection method for profiling redox state following pharmacologic perturbations of redox balance in cells (part I),Homo sapiens,22,22,216,188
+ST001770,Application of the redox metabolite detection method for profiling redox state following pharmacologic perturbations of redox balance in cells (part II),Homo sapiens,29,29,216,188
+ST001771,Application of the redox metabolite detection method for profiling redox state following pharmacologic perturbations of redox balance in cells (part III),Homo sapiens,30,30,229,188
+ST001772,Optimization of redox metabolite detection in mammalian cells (part II),Homo sapiens,37,37,217,190
+ST001780,Comparative analysis of metabolomic profiles in cerebrospinal fluid before and after endurance exercise,Homo sapiens,38,38,689,656
+ST001788,β-Adrenergic regulation of metabolism in macrophages (part-IV),Homo sapiens,16,16,1113,790
+ST001789,Acute metabolomic changes of plasma in response to endurance exercise,Homo sapiens,57,57,689,669
+ST001794,Metabolomics Analysis of Time-Series Gastrointestinal Lumen Samples,Homo sapiens,24,24,841,780
+ST001815,Metabolic Markers of Methotrexate Response in Juvenile Idiopathic Arthritis,Homo sapiens,60,60,831,643
+ST001827,The pregnancy metabolome from a multi-ethnic pregnancy cohort,Homo sapiens,410,410,886,818
+ST001828,Nested case–control study of environmental exposure within the ongoing Puerto Rico Testsite for Exploring Contamination Threats (PROTECT) pregnancy cohort.,Homo sapiens,100,100,337,292
+ST001831,Nested case–control study of environmental exposure within the ongoing Puerto Rico Testsite for Exploring Contamination Threats (PROTECT) pregnancy cohort (part II),Homo sapiens,100,100,858,483
+ST001835,"Use of Integrated Metabolomics, Transcriptomics, and Signal Protein Profile to Characterize the Effector Function and Associated Metabotype of Polarized Macrophage Phenotypes",Homo sapiens,36,36,498,481
+ST001842,Identification of unique metabolite networks between Latino and Caucasian patients with nonalcoholic fatty liver disease (NAFLD) (part I),Homo sapiens,60,60,157,148
+ST001843,Identification of unique metabolite networks between Latino and Caucasian patients with nonalcoholic fatty liver disease (NAFLD) (part II),Homo sapiens,60,60,427,281
+ST001844,Identification of unique metabolite networks between Latino and Caucasian patients with nonalcoholic fatty liver disease (NAFLD) (part III),Homo sapiens,61,61,356,253
+ST001849,Longitudinal Metabolomics of Human Plasma Reveals Robust Prognostic Markers of COVID-19 Disease Severity (part I),Homo sapiens,700,700,707,545
+ST001860,Spontaneous hydrolysis and spurious metabolic properties of α-ketoglutarate esters,Homo sapiens,9,9,147,147
+ST001863,Analysis of Bxa induced metabolic changes in epithelial cells,Homo sapiens,12,12,187,177
+ST001864,Targeting host glycolysis as a strategy for antimalarial development,Homo sapiens,36,36,124,116
+ST001873,Metabolomics analysis of multiple samples on AB 5600-Part 1,Homo sapiens,12,12,736,541
+ST001874,Metabolomics analysis of multiple samples on Agilent 6546-Part 1,Homo sapiens,54,54,499,356
+ST001893,Involvement of Mieap in Cardiolipin metabolism (part I),Homo sapiens,8,8,118,118
+ST001905,Metabolomic profiling of saliva in diabetes patients,Homo sapiens,61,61,143,116
+ST001907,Training-induced bioenergetic improvement in human skeletal muscle is associated with non-stoichiometric changes in the mitochondrial proteome without reorganisation of respiratory chain content,Homo sapiens,40,40,750,565
+ST001922,Sublytic membrane attack complex drives glycolysis and mitochondrial dysfunction with inflammatory consequences in human monocyte-derived macrophages,Homo sapiens,12,12,516,255
+ST001928,Metabolomics profiles of premenopausal women are different based on O-desmethylangolensin metabotype,Homo sapiens,73,73,305,246
+ST001931,"Pesticides, Perfluorinated compounds and the development of adolescents in agricultural communities",Homo sapiens,633,633,129,108
+ST001933,Absolute quantification of plasma cytokines and metabolome reveals the glycylproline regulating antibody-fading in convalescent COVID-19 patients,Homo sapiens,82,82,187,184
+ST001936,Pseudoexfoliation aqueous humor lipidome suggests enrichment of specific pathways,Homo sapiens,65,65,548,469
+ST001937,Comprehensive plasma metabolomics and lipidomics based management of benign and malignant solitary pulmonary nodules,Homo sapiens,1160,1160,545,257
+ST001940,Cognitive Behavioral Therapy for Irritable Bowel Syndrome Induces Bidirectional Alterations in the Brain-Gut-Microbiome Axis Associated with Gastrointestinal Symptom Improvement,Homo sapiens,68,68,3488,816
+ST001942,Lipidomics of esophageal adenocarcinoma,Homo sapiens,150,150,259,258
+ST001948,Metabolites Associated with Gestational Diabetes in Plasma,Homo sapiens,68,68,129,118
+ST001949,Plasma Metabolome Normalization in Rheumatoid Arthritis following initiation of Methotrexate and the Identification of Metabolic Biomarkers of Efficacy,Homo sapiens,60,60,649,632
+ST001953,Identifying metabolite changes in human islets treated with Phospho-BAD mimicry and Inflammatory cytokines,Homo sapiens,32,32,212,193
+ST001958,Data on changes in lipid profiles during differentiation and maturation of human subcutaneous white adipocytes analyzed using chromatographic and bioinformatics tools,Homo sapiens,15,15,309,304
+ST001963,THEM6-mediated lipid remodelling sustains stress resistance in cancer,Homo sapiens,27,27,1082,433
+ST001971,Lipid Profiling in African-American Men with Prostate Cancer,Homo sapiens,96,96,429,390
+ST001977,Anti-oxidative metabolism measurement in mammalian cells and tissues by quantitative LC/MS method (IV),Homo sapiens,37,37,216,188
+ST001978,Anti-oxidation metabolism measurement in mammalian cells and tissues by quantitative LC/MS method (V),Homo sapiens,80,80,271,190
+ST001983,Metabolomic Fingerprinting of Human High Grade Serous Ovarian Carcinoma Cell Lines,Homo sapiens,30,30,731,703
+ST001988,THEM6-mediated lipid remodelling sustains stress resistance in cancer (Part 2),Homo sapiens,27,27,764,510
+ST001989,THEM6-mediated lipid remodelling sustains stress resistance in cancer (Part 3),Homo sapiens,18,18,726,549
+ST002002,A case-control study on plasma metabolomics analysis in Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) (Part 3),Homo sapiens,197,197,477,339
+ST002003,A case-control study on plasma metabolomics analysis in Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) (Part 4),Homo sapiens,197,197,237,188
+ST002010,Chemoresistant Ovarian Cancer Global Metabolomics,Homo sapiens,22,22,425,299
+ST002016,Metabolomics of COVID patients,Homo sapiens,322,322,690,510
+ST002017,Multi-omic analysis of the microbiome and metabolome in healthy subjects (blood),Homo sapiens,75,75,812,768
+ST002018,Multi-omic analysis of the microbiome and metabolome in healthy subjects (feces),Homo sapiens,75,75,770,729
+ST002019,TIPs Metabolomics (blood),Homo sapiens,70,70,736,693
+ST002020,TIPs Metabolomics (urine),Homo sapiens,70,70,835,691
+ST002025,Metabolomics Analysis of Blood Plasma and Stool from Six Week Flaxseed Dietary Intervention in Postmenopausal Women (Serum/GC),Homo sapiens,356,356,164,162
+ST002026,Metabolomics Analysis of Blood Plasma and Stool from Six Week Flaxseed Dietary Intervention in Postmenopausal Women (Stool/GC),Homo sapiens,149,149,216,214
+ST002027,Metabolomics Analysis of Blood Plasma and Stool from Six Week Flaxseed Dietary Intervention in Postmenopausal Women (Serum/HILIC),Homo sapiens,356,356,312,276
+ST002028,Metabolomics Analysis of Blood Plasma and Stool from Six Week Flaxseed Dietary Intervention in Postmenopausal Women (Stool/HILIC),Homo sapiens,149,149,475,429
+ST002054,Reduced ER-mitochondria connectivity promotes neuroblastoma multidrug resistance,Homo sapiens,28,28,145,145
+ST002055,Metabolomic Profiling of Human Pluripotent Stem Cell Differentiation into Lung Progenitors,Homo sapiens,64,64,188,187
+ST002057,Distinct Human Hepatocyte Lipidomics Profiles for Nonalcoholic Steatohepatitis and In Vitro-Induced Steatosis,Homo sapiens,103,103,374,374
+ST002059,4T1 and SkM cells,Homo sapiens,12,12,140,136
+ST002070,Lipidomic Comparison of 2D and 3D Colon Cancer Cell Culture Models,Homo sapiens,59,59,409,368
+ST002075,Profiling of the human intestinal microbiome and bile acids under physiologic conditions using an ingestible sampling device (Part 2),Homo sapiens,331,331,411,338
+ST002081,"Dynamic Lipidome Alterations Associated with Human Health, Disease, and Aging",Homo sapiens,1643,1643,845,845
+ST002082,Predicting dying: a study of the metabolic changes and the dying process in patients with lung cancer,Homo sapiens,112,112,819,383
+ST002088,Plasma Metabolomic signatures of COPD in a SPIROMICS cohort: A metabolomic severity score for airflow obstructions and emphysema,Homo sapiens,648,648,1174,1043
+ST002089,Plasma metabolomic signatures of COPD: A metabolomic severity score for airflow obstruction and emphysema.,Homo sapiens,1125,1125,1056,964
+ST002091,Serum lipids are associated with nonalcoholic fatty liver disease: a pilot case-control study in Mexico,Homo sapiens,200,200,727,727
+ST002094,Commensal intestinal microbiota regulates host luminal proteolytic activity and intestinal barrier integrity through β-glucuronidase activity (Part 1),Homo sapiens,7,7,14546,2946
+ST002104,"Chemoresistant Cancer Cell Lines are Characterized by Migratory, Amino Acid Metabolism, Protein Catabolism and IFN1 Signalling Perturbations",Homo sapiens,22,22,425,297
+ST002109,Towards a mechanistic understanding of patient response to neoadjuvant SBRT with anti-PDL1 in human HPV-unrelated locally advanced HNSCC: Phase I/Ib trial results (Part 1),Homo sapiens,41,41,143,142
+ST002110,Towards a mechanistic understanding of patient response to neoadjuvant SBRT with anti-PDL1 in human HPV-unrelated locally advanced HNSCC: Phase I/Ib trial results (Part 2),Homo sapiens,40,40,142,141
+ST002114,Involvement of Mieap in Cardiolipin metabolism (part I-revised),Homo sapiens,20,20,132,132
+ST002134,Alignment and Analysis of a Disparately Acquired Multi-Batch Metabolomics Study of Maternal Pregnancy Samples (Part 1),Homo sapiens,199,199,888,535
+ST002135,Alignment and Analysis of a Disparately Acquired Multi-Batch Metabolomics Study of Maternal Pregnancy Samples. (Part 2),Homo sapiens,186,186,888,535
+ST002155,Longitudinal metabolomic stool dynamics in primary C. difficile infections,Homo sapiens,250,250,1288,1122
+ST002173,Unveiling the mechanism of action of nature-inspired anti-cancer compounds using a multi-Omics approach,Homo sapiens,30,30,124,123
+ST002180,"Global, distinctive and personal changes in molecular and microbial profiles induced by specific fibers in humans (Targeted)",Homo sapiens,335,335,892,892
+ST002196,Metabolic signature of idiopathic inflammatory myopathy,Homo sapiens,90,90,150,150
+ST002200,Human Trisome Project Plasma Metabolomics v1,Homo sapiens,419,419,178,166
+ST002211,Effects of Medwakh Smoking on Oxidative Stress and Inflammation Among Youth in UAE using Liquid chromatography-mass spectrometry,Homo sapiens,120,120,107,106
+ST002212,Human fecal metabolome profiles under 3 different dietary terms,Homo sapiens,176,176,259,257
+ST002213,Metabolic changes in Alzheimer patient-derived induced neurons versus non-demented controls,Homo sapiens,36,36,430,243
+ST002214,The effects of PKM2 modulation and hypoxia on the metabolic landscape of Alzheimer patient-derived induced neurons,Homo sapiens,16,16,126,125
+ST002220,Catabolism of branched-chain amino acids (BCAAs) in renal cells HK2 and 786-O,Homo sapiens,20,20,161,102
+ST002221,Glutaminolysis contribution to the carbon backbone of aspartate through ATP Citrate Lyase (ACLY) in ccRCC,Homo sapiens,45,45,376,161
+ST002222,Glutaminolysis contribution to the carbon backbone of aspartate and glutamate in ccRCC,Homo sapiens,60,60,376,161
+ST002224,Intracellular metabolic profile of renal cells cultured in Plasmax,Homo sapiens,48,48,163,160
+ST002225,"Time sensitive contribution of the BCAA catabolism to the TCA cycle carbons in HK2, 786-O, OS-RC-2 and RFX-631",Homo sapiens,108,108,156,109
+ST002231,Metabolomics Analysis of HOG-EV and HOG-R132H Cells with and without BAY 2402234 Treatment,Homo sapiens,67,67,368,347
+ST002234,A metabolic map of the DNA damage response identifies PRDX1 in nuclear ROS scavenging and aspartate synthesis,Homo sapiens,30,30,198,182
+ST002243,Lipidomics analysis of Friedreich's ataxia (FRDA) (part II),Homo sapiens,224,224,404,396
+ST002244,Metabolomics analysis of Friedreich's ataxia (FRDA) (part I),Homo sapiens,224,224,134,130
+ST002246,Longitudinal fecal metabolomic profiles from mothers and their infants in the EDIA study,Homo sapiens,192,192,639,538
+ST002247,"Microbiota and Health Study (Dhaka, Bangladesh)",Homo sapiens,1368,1368,808,674
+ST002248,Quantitative multi-Omics analysis of paclitaxel-loaded Poly(lactide-co-glycolide) nanoparticles for identification of potential biomarkers for head and neck cancer,Homo sapiens,32,32,161,158
+ST002269,Targeted plasma metabolomics in pediatric NAFLD patients,Homo sapiens,174,174,342,342
+ST002273,Multi-Omics analysis revealed a significant alteration of critical metabolic pathways due to sorafenib-resistance in Hep3B cell lines,Homo sapiens,12,12,133,133
+ST002281,Metabolite patterns between isogenic normal hiPSCs and Trisomy hiPSC,Homo sapiens,20,20,778,597
+ST002283,"The “ForensOMICS” approach to forensic post-mortem interval estimation: combining metabolomics, lipidomics and proteomics for the analysis human skeletal remains",Homo sapiens,160,160,1222,952
+ST002284,Genetically defined human GBM organoids reveal principles of GBM development and actionable targets,Homo sapiens,180,180,496,438
+ST002323,SETD1A regulates transcriptional pause release of heme biosynthesis genes in leukemia,Homo sapiens,12,12,509,501
+ST002327,Effect of PARK7 gene KO on midbrain organoids,Homo sapiens,58,58,147,147
+ST002328,Metabolome and transcriptome analysis of oral mucosa of HIV+ patients reveal a role for polyamine metabolic pathway in T cell dysfunction,Homo sapiens,66,66,362,258
+ST002334,Phospholipase D3 impact on the endolysosomal lipidome,Homo sapiens,24,24,2199,2198
+ST002337,Guangzhou Nutrition and Health Study (GNHS),Homo sapiens,1092,1092,204,200
+ST002346,Lipidomics study of the cells defective in peroxisome division,Homo sapiens,116,116,142,142
+ST002400,Alcohol dehydrogenase 1B is crucial for adipocyte homeostasis,Homo sapiens,10,10,398,394
+ST002405,Stool global metabolite levels in peanut allergy (Part 2),Homo sapiens,40,40,2189,1272
+ST002407,"Spatial, temporal, and inter-subject variation of the metabolome along the human upper intestinal tract (MS HILIC negative data) ",Homo sapiens,331,331,413,383
+ST002409,"Spatial, temporal, and inter-subject variation of the metabolome along the human upper intestinal tract (MS RP positive data)",Homo sapiens,331,331,312,267
+ST002411,"Spatial, temporal, and inter-subject variation of the metabolome along the human upper intestinal tract (MS RP negative data)",Homo sapiens,331,331,498,366
+ST002413,IFN-inducible phospholipid levels govern endosomal antiviral immunity,Homo sapiens,9,9,178,175
+ST002421,UBXD8 lipidomics from whole cells (Part 1),Homo sapiens,32,32,244,244
+ST002422,UBXD8 lipidomics from whole cells (Part 2),Homo sapiens,36,36,218,218
+ST002452,Lipidomic analysis of human brain from frontotemporal dementia cases of with GRN and C9orf72 mutations,Homo sapiens,224,224,821,768
+ST002459,"Comparison of metabolite profiles from matched whole blood microsamplers, whole blood dried blood spots, and plasma.",Homo sapiens,187,187,588,390
+ST002461,Untargeted metabolomics of HUVECs subjected to hypoxia-reoxygenation,Homo sapiens,12,12,308,223
+ST002470,Linking bacterial metabolites to disease-associated microbes to uncover mechanisms of host-microbial interactions in intestinal inflammation. Human plasma profiling,Homo sapiens,89,89,728,594
+ST002471,Linking bacterial metabolites to disease-associated microbes to uncover mechanisms of host-microbial interactions in intestinal inflammation. Human stool profiling,Homo sapiens,91,91,884,724
+ST002475,"Psychobiotic Lactobacillus plantarum JYLP-326 relieves anxiety, depression, and insomnia symptoms in test anxious college students via modulating the gut microbiota and its metabolism",Homo sapiens,124,124,153,113
+ST002477,Neutrophil metabolomics in COVID-19,Homo sapiens,89,89,287,261
+ST002484,Metabolomic analysis of maternal mid-gestation plasma and cord blood: primary metabolism,Homo sapiens,918,918,146,144
+ST002498,Plasma Metabolomics Profiling of 580 Patients from the Weill Cornell Medicine Early Detection Research Network Prostate Cancer Cohort,Homo sapiens,580,580,1482,1018
+ST002500,Plasma metabolomic signatures from patients following high-dose total body irradiation,Homo sapiens,216,216,311,182
+ST002505,A Mammalian Conserved Circular RNA CircLARP2 Regulates Hepatocellular Carcinoma Metastasis and Lipid Metabolism (Part 1),Homo sapiens,40,40,5074,3986
+ST002535,Relationships between the gut microbiome and cognitive impairment in residents of long-term aged care.,Homo sapiens,47,47,184,166
+ST002536,Effectors enabling adaptation to mitochondrial complex I loss in Hürthle cell carcinoma,Homo sapiens,48,48,765,552
+ST002553,Exploring the Impact of Oral Arabic Gum Consumption on Sphingolipid Metabolism and human metabolites in Chronic Kidney Disease: A Mass Spectrometry Analysis,Homo sapiens,176,176,102,102
+ST002555,Ethnicity-Specific Differences in Ovarian Cancer Metabolic Signatures,Homo sapiens,48,48,614,600
+ST002576,Role of environmental toxicants in obesity-related cardiovascular disease: Plasma untargeted LC-HRMS analysis (part 1 of 3),Homo sapiens,176,176,1017,469
+ST002584,Metabolomics analysis of ALDH1L1-expressing HuH7 cell lines.,Homo sapiens,6,6,269,246
+ST002681,Non-T2D vs T2D,Homo sapiens,130,130,207,179
+ST002700,Metabolomic analysis of maternal mid-gestation plasma and cord blood: lipidomics,Homo sapiens,1089,1089,575,406
+ST002711,Metabolomic analysis of maternal mid-gestation plasma and cord blood: biogenic amines,Homo sapiens,1088,1088,500,378
+ST002712,Ranolazine induced metabolic rewiring improves melanoma responses to targeted therapy and immunotherapy - metabolomics,Homo sapiens,12,12,146,145
+ST002713,Ranolazine induced metabolic rewiring improves melanoma responses to targeted therapy and immunotherapy - lipidomics,Homo sapiens,12,12,809,691
+ST002716,"Ventricle-specific myocardial protein and metabolite characterisation in healthy humans, with differential regulation in end-stage cardiomyopathies (Part 1)",Homo sapiens,64,64,111,109
+ST002717,"Ventricle-specific myocardial protein and metabolite characterisation in healthy humans, with differential regulation in end-stage cardiomyopathies (Part 2)",Homo sapiens,62,62,100,100
+ST002732,Impaired metabolism predicts coronary artery calcification in women with systemic lupus erythematosus,Homo sapiens,207,207,144,144
+ST002736,Assessing mitochondrial bioenergetics in coronary artery disease: A translational multiomic tissue study in humans (The AMBITION study).,Homo sapiens,61,61,245,235
+ST002743,Metabolomics comparison of lung fibroblasts from Pteropus alecto and Homo sapiens,Pteropus alecto / Homo sapiens,6,3,116,116
+ST002755,"Metabolomics Profiling of the Antiproliferative, Anti-migratory and Anti-invasive Potential of Amlodipine in Lung Cancer Cells",Homo sapiens,24,24,127,126
+ST002764,Identification of pre-diagnostic lipid sets associated with liver cancer risk using untargeted lipidomics and chemical set analysis – a nested case-control study within the ATBC cohort,Homo sapiens,438,438,576,390
+ST002787,Metabolomic analysis of gut metabolites in colorectal cancer patients: correlation with disease development and outcome,Homo sapiens,102,102,1641,1503
+ST002797,Fetal metabolic adaptations to cardiovascular stress in twin-twin transfusion syndrome,Homo sapiens,32,32,320,276
+ST002805,IL-1β-mediated adaptive re-programming of endogenous human cardiac fibroblasts to cells with immune features during fibrotic remodeling,Homo sapiens,6,6,295,247
+ST002818,Evaluation of Novel Candidate Filtration Markers from a Global Metabolomics Discovery for Glomerular Filtration Rate Estimation (ALTOLD),Homo sapiens,289,289,967,866
+ST002819,Evaluation of Novel Candidate Filtration Markers from a Global Metabolomics Discovery for Glomerular Filtration Rate Estimation (MDRD),Homo sapiens,751,751,766,724
+ST002820,Evaluation of Novel Candidate Filtration Markers from a Global Metabolomics Discovery for Glomerular Filtration Rate Estimation (AASKG1),Homo sapiens,1002,1002,833,788
+ST002825,Brain Metabolomics in Fragile X-Associated Tremor/Ataxia Syndrome (FXTAS),Homo sapiens,82,82,171,167
+ST002827,Multi-assay nutritional metabolomics profiling of low vitamin A status versus adequacy is characterized by reduced plasma lipid mediators among lactating women in the Philippines: A pilot study.,Homo sapiens,10,10,145,140
+ST002829,"Nucleotide, phospholipid, and kynurenine metabolites are robustly associated with COVID-19 severity and time of plasma sample collection in a prospective cohort study",Homo sapiens,609,609,1108,758
+ST002831,Folate depletion upregulates heme synthesis,Homo sapiens,8,8,138,132
+ST002857,Intracerebroventricular Transplantation of Foetal Allogeneic Neural Stem Cells in Patients with Secondary Progressive Multiple Sclerosis (hNSC-SPMS): a phase I dose-escalation clinical trial - Metabolomics Analysis of Human CSF and Serum,Homo sapiens,62,62,286,257
+ST002858,Intracerebroventricular Transplantation of Foetal Allogeneic Neural Stem Cells in Patients with Secondary Progressive Multiple Sclerosis (hNSC-SPMS): a phase I dose-escalation clinical trial - Metabolomics Analysis of Human Serum,Homo sapiens,94,94,596,541
+ST002861,Gut Microbiota-associated Metabolites Affected the Susceptibility to Heart Health Abnormality in Young Migrants at High-altitude-Human Serum Metabolomics,Homo sapiens,230,230,131,129
+ST002862,Gut Microbiota-associated Metabolites Affected the Susceptibility to Heart Health Abnormality in Young Migrants at High-altitude-Human Faeces Metabolomics,Homo sapiens,230,230,172,169
+ST002864,"Metabolic profiling, glucose tracing and glutamine tracing in naive and Enzalutamide-treated 16D prostate cancer cells expressing RFP or MYC",Homo sapiens,27,27,502,123
+ST002865,"Metabolic profiling, glucose tracing and glutamine tracing in 16D prostate cancer cells treated with vehicle, AR inhibitor Enzalutamide, AR inhibitor Apalutamide, or AR degrader/PROTAC ARCC-4",Homo sapiens,27,27,517,123
+ST002866,The role of PFAS exposures in nonalcoholic fatty liver disease and hepatocellular carcinoma in the Multiethnic Cohort,Homo sapiens,3501,3501,432,362
+ST002876,High Level Expression of NSD2 Creates a Metabolic Dependency in Multiple Myeloma,Homo sapiens,18,18,187,153
+ST002897,"Polar metabolite levels in K562 cells following folate depletion, SHIN1 or AICAR treatment",Homo sapiens,12,12,107,103
+ST002903,Identification and targeting of microbial putrescine acetylation in bloodstream infections,Homo sapiens,43,43,647,445
+ST002906,Polar metabolite levels in K562 cells following short-term folate depletion,Homo sapiens,15,15,158,131
+ST002909,Plasma metabolomics reveals distinct biological and diagnostic signatures for melioidosis,Homo sapiens,300,300,1069,931
+ST002910,Identifying the impact of RelA overexpression in triple negative breast cancer cells using mass spectroscopy-based proteomics and metabolomics analysis,Homo sapiens,12,12,123,123
+ST002913,Polar metabolite levels in K562 cells following folate depletion,Homo sapiens,23,23,118,112
+ST002928,"The major TMEM106B dementia risk allele affects TMEM106B protein levels, fibril formation, and myelin lipid homeostasis in the ageing human hippocampus",Homo sapiens,76,76,234,150
+ST002935,Title: Myeloid cell-derived creatine in the hypoxic niche promotes glioblastoma growth,Homo sapiens,10,10,202,187
+ST002938,"Role of PI3K in Atrial Myopathy: Insights from Transgenic Mouse Models and Identification of a Dysregulated PI3K Lipid Profile in Individuals with Atrial Fibrillation - part 1 of 2, human plasma",Homo sapiens,78,78,772,579
+ST002955,"Untargeted metabolomics analysis of plasma from viremic non-progressors (VNP), progressors, and healthy control (HC) patients using high-resolution, high-performance LC-MS/MS analysis.",Homo sapiens,51,51,190,172
+ST002967,Lipidomics study of FASN inhibition in HT-29 and HCT 116 spheroids,Homo sapiens,38,38,573,550
+ST002977,Offline Two-dimensional Liquid Chromatography-Mass Spectrometry for Deep Annotation of the Fecal Metabolome following Fecal Microbiota Transplant,Homo sapiens,76,76,5528,1211
+ST002984,Amino acid catabolite markers for early prognostication of pneumonia in patients with COVID-19,Homo sapiens,71,71,278,240
+ST002991,Metabolomics studies on human colorectal cancer cell lines,Homo sapiens,24,24,130,127
+ST003002,"The role of gut microbiota in muscle mitochondria function, colon health, and sarcopenia: from clinical to bench (2)",Homo sapiens,51,51,2051,928
+ST003012,A High-Fat Eucaloric Diet Induces Reprometabolic Syndrome of Obesity in Normal Weight Women - metabolomics,Homo sapiens,50,50,129,129
+ST003018,"Polar metabolite levels in K562 cells following PKC inhibition in 2,000 nM or 100 nM FA conditions",Homo sapiens,16,16,112,107
+ST003027,NMR- and MS-based omics reveal characteristic metabolome atlas and optimize biofluid earlydiagnostic biomarkers for esophageal squamous cell carcinoma (part-Ⅳ),Homo sapiens,32,32,491,477
+ST003032,Effects of Preanalytical Sample Collection and Handling on Comprehensive Metabolite Measurements in Human Urine Biospecimens,Homo sapiens,416,416,671,622
+ST003033,OGDH metabolomics upon glucose starvation,Homo sapiens,14,14,478,358
+ST003039,"A Non-Targeted Metabolomics Comparative Study on Plasma of Pfizer and Sinopharm COVID- 19 Vaccinated individuals, Assessed by (TIMS-QTOF) Mass Spectrometry.",Homo sapiens,349,349,116,116
+ST003044,A High-Fat Eucaloric Diet Induces Reprometabolic Syndrome of Obesity in Normal Weight Women - lipidomics,Homo sapiens,50,50,1356,590
+ST003045,Proteomic and metabolomic signatures of rectal tumor discriminate patients with different responses to preoperative radiotherapy,Homo sapiens,18,18,131,130
+ST003051,Shotgun lipidomics of breast cancer endocrine therapy persisters,Homo sapiens,8,8,1134,832
+ST003065,Investigative needle core biopsies for multi-omics in Glioblastoma,Homo sapiens,1,1,151,111
+ST003066,Heritability of RBC metabolites: baseline correlation of metabolites and markers of RBC health and stability,Homo sapiens,36,36,330,325
+ST003102,Cellular adaptation to cancer therapy occurs by progressive state transitions along a resistance continuum,Homo sapiens,12,12,147,147
+ST003103,Reinforcing the Evidence of Mitochondrial Dysfunction in Long COVID Patients using a Multiplatform Mass Spectrometry-based Metabolomics Approach,Homo sapiens,92,92,605,516
+ST003104,Metabolomics studies on human cardiac samples,Homo sapiens,25,25,156,155
+ST003108,Complete absence of GLUT1 does not impair human terminal erythroid differentiation,Homo sapiens,72,72,737,689
+ST003114,"Lipidomics analyses in model membranes, isolated mitochondria and cellular systems to study how the local lipid environment affects BAX and BAK function during apoptosis.",Homo sapiens,40,40,224,178
+ST003136,Circulating N-lactoyl-amino acids and N-formyl-methionine reflect mitochondrial dysfunction and predict mortality in septic shock,Homo sapiens,98,98,159,130
+ST003143,Mitochondrial complex I promotes kidney cancer metastasis,Homo sapiens,59,59,768,368
+ST003161,Diet-omics in the Study of Urban and Rural Crohn disease Evolution (SOURCE) cohort,Homo sapiens,37,37,405,399
+ST003168,Lipidomic analysis of cryopreserved human cardiac tissue from young and ageing adults,Homo sapiens,23,23,341,341
+ST003177,"A Longitudinal Study in Rheumatoid Arthritis Unveils Metabolomic Biomarkers Preceding Clinical Onset, Assessing Disease Severity, and Anticipating Treatment Response to csDMARDs",Homo sapiens,2492,2492,222,214
+ST003178,Post-Infectious MECFS at the NIH,Homo sapiens,38,38,445,384
+ST003181,Depression symptoms modifies differently plasma metabolites in pre- and post-menopausal women,Homo sapiens,401,401,121,116
+ST003193,Metabolomics study on frozen tissue derived from the tumor and adjacent non-malignant liver tissue (NML) of patient afflicted with fibrolamellar carinoma (FLC),Homo sapiens,26,26,135,135
+ST003194,Multi-Omics Analysis Revealed Significant Metabolic Changes in Brain Cancer Cells Treated with Paclitaxel and/or Topotecan,Homo sapiens,16,16,111,111
+ST003204,Glutamine Tracing Assay on Caki1 WT and 769P WT versus Caki1 RquA and 769P RquA,Homo sapiens,24,24,370,269
+ST003213,The central role of creatine and polyamines in fetal growth restriction,Homo sapiens,6,6,1215,865
+ST003245,Exploration of Zeb1-dependent changes in the lipidome of MDA-MB-231 cells,Homo sapiens,48,48,140,140
+ST003255,Metabolomics study to identify cause-specific biomarkers for Chronic Kidney Disease occurrence and progression in the Korean population,Homo sapiens,286,286,188,185
+ST003262,A Covalent Creatine Kinase Inhibitor Ablates Glioblastoma Migration and Sensitizes Tumors to Oxidative Stress.,Homo sapiens,12,12,162,130
+ST003266,Metabolomics analysis of human spermatozoa reveals impaired metabolic pathways in asthenozoospermia,Homo sapiens,61,61,648,323
+ST003267,FDX2-KO induces global down-regulation of iron-sulfur cluster-containing proteins and senescence-like growth arrest or death in ovarian cancer cells,Homo sapiens,8,8,135,135
+ST003274,Metabolomics analysis within healthy donors and end-stage heart failure with a focus on ischaemic cardiomyopathy with diabetes,Homo sapiens,77,77,154,152
+ST003275,Lipidomics analysis within healthy donors and end-stage heart failure with a focus on ischaemic cardiomyopathy with diabetes,Homo sapiens,75,75,354,341
+ST003285,Human dermal interstitial fluid metabolomics LC-MS/MS,Homo sapiens,23,23,760,457
+ST003291,Atopic dermatitis and STAT3 double null mutant skin biopsies during healing.,Homo sapiens,114,114,430,213
+ST003312,Integrative analysis of serum and fecal metabolome and the microbiome that herald Crohn Disease flare - serum,Homo sapiens,202,202,308,302
+ST003313,Integrative analysis of serum and fecal metabolome and the microbiome that herald Crohn Disease flare - feces,Homo sapiens,294,294,398,393
+ST003315,Randomized phase II trial of pre-operative fulvestrant with or without enzalutamide for ER+/Her2- primary breast cancer: effects on tumor immune microenvironment and clinical outcomes.,Homo sapiens,111,111,125,124
+ST003327,Control Of Major Bleeding After Trauma (COMBAT) Clinical Research Trial Metabolomics,Homo sapiens,726,726,378,324
+ST003328,Increased Cholesterol Synthesis Drives Neurotoxicity in Patient Stem Cell-Derived Model of Multiple Sclerosis - cellular lipidomics,Homo sapiens,42,42,642,631
+ST003331,Increased Cholesterol Synthesis Drives Neurotoxicity in Patient Stem Cell-Derived Model of Multiple Sclerosis - cellular metabolomics,Homo sapiens,21,21,181,157
+ST003332,Increased Cholesterol Synthesis Drives Neurotoxicity in Patient Stem Cell-Derived Model of Multiple Sclerosis - media metabolomics,Homo sapiens,24,24,136,135
+ST003333,Urine Metabolite Profiling in Indian Male Population at High Altitude using Liquid Chromatography – Mass Spectrometry: A Longitudinal Pilot Study,Homo sapiens,76,76,636,270
+ST003347,ADSL deficiency drives mitochondrial dysfunction and ERK2 dysregulation in a linear genotype to phenotype correlation,Homo sapiens,35,35,147,144
+ST003348,An integrated LC-MS analysis of the biometric characteristics of different time cohorts of race walkers - untargeted,Homo sapiens,76,76,593,476
+ST003349,An integrated LC-MS analysis of the biometric characteristics of different time cohorts of race walkers - targeted,Homo sapiens,76,76,876,814
+ST003356,Noninvasive multiomic measurement of cell type repertoires in human urine,Homo sapiens,52,52,758,509
+ST003362,Metabolomics analysis of Glioblastoma (GBM) cell line U251 labeled by 13C-glutamine after treatment with pimozide,Homo sapiens,28,28,1848,277
+ST003364,Deep lipidomic profiling reveals sex dimorphism of lipid metabolism in fibro-calcific aortic valve disease,Homo sapiens,431,431,1619,1189
+ST003388,"RMC-113 (dual-lipid kinase inhibitor, PIKfyve, PIP4K2C) alters the phosphoinositide regioisomer signature by advanced lipidomics analysis",Homo sapiens,4,4,126,120
+ST003390,In-depth profiling of biosignatures for Type 2 diabetes mellitus cohort utilizing an integrated targeted LC-MS platform,Homo sapiens,300,300,1343,1246
+ST003398,Specific activation of the integrated stress response (ISR) uncovers regulation of lipid droplet biogenesis,Homo sapiens,20,20,1106,774
+ST003405,Specific activation of the integrated stress response uncovers regulation of central carbon metabolism and lipid droplet biogenesis,Homo sapiens,30,30,322,226
+ST003409,Impact of giredestrant on the lipid profile of MCF-7 breast cancer cells,Homo sapiens,28,28,609,609
+ST003410,Lipidomics Analysis of ER+ Breast Cancer Cells Treated with Giredestrant and Palbociclib,Homo sapiens,32,32,725,725
+ST003431,"Metabolomics analysis of breast cancer cell lines treated with dimethylmalonate (DMM), GSK2194069, and their combination.",Homo sapiens,46,46,242,134
+ST003432,Intracellular and medium metabolomics of BT-474 cells treated with LW6,Homo sapiens,50,50,243,134
+ST003433,"Intracellular and medium metabolomics of BT-474 cells treated with dimethylmalonate, Fasnall, and GSK2194069",Homo sapiens,43,43,288,161
+ST003439,Metabolomics of human serum to support understanding of early metabolic shift in presymptomatic sepsis patients. (Part1 human metabolites),Homo sapiens,573,573,598,376
+ST003452,Integrated Proteomic and Lipidomic Analysis,Homo sapiens,18,18,366,363
+ST003454,Branched chain alpha-ketoacids impact pulmonary artery smooth muscle cell metabolism,Homo sapiens,12,12,139,138
+ST003455,Metabolic alterations in pulmonary artery smooth muscle cells of idiopathic pulmonary arterial hypertension (IPAH) patients.,Homo sapiens,10,10,139,138
+ST003456,Lipidomics of human serum to support understanding of early metabolic shift in presymptomatic sepsis patients. (Part2 human lipids),Homo sapiens,581,581,497,371
+ST003477,Biocrates Test,Homo sapiens,9,9,630,630
+ST003484,"Metabolism of TNBC cell line MDA-MB-453 is altered by cytokines, TDO2 inhibition, or suspension growth conditions - cellular steady state metabolome and in vitro tracing with 13C11 tryptophan",Homo sapiens,90,90,137,132
+ST003490,Metabolomics of culture media from TNBC cell line MDA-MB-453 +/- TDO2/IDO1 dual inhibition,Homo sapiens,18,18,113,111
+ST003492,Metabolomic profiling of the secretome in normal primary human pulmonary artery smooth muscle cells,Homo sapiens,6,6,148,143
+ST003497,Dose-dependent CHCHD10 dysregulation dictates motor neuron disease severity and alters creatine metabolism - human skin fibroblasts,Homo sapiens,30,30,438,415
+ST003498,Dose-dependent CHCHD10 dysregulation dictates motor neuron disease severity and alters creatine metabolism - human iPSC cell lines,Homo sapiens,75,75,438,415
+ST003499,Metabolic analysis of ADSL deficiency patients' EBV-LCLs.,Homo sapiens,30,30,346,166
+ST003504,Methionine-SAM metabolism-dependent ubiquinone synthesis is crucial for ROS accumulation in ferroptosis induction,Homo sapiens,9,9,108,103
+ST003514,Highly reliable LC-MS lipidomics database for efficient human plasma profiling based on NIST SRM 1950,Homo sapiens,61,61,600,493
+ST003520,Identification of Plasma Metabolomic Biomarkers of Juvenile Idiopathic Arthritis,Homo sapiens,210,210,931,754
+ST003523,Hypermetabolism induced pantothenate depletion in MT-ATP6 neuropathy,Homo sapiens,90,90,706,368
+ST003527,Combining antibiotics alters the longitudinal maturation of gut microbiota and its short chain fatty acid metabolites in extremely and very preterm infants,Homo sapiens,47,47,609,607
+ST003547,Analysis of the fate of docosahexaenoic acid in HCT116 colorectal cancer cells cultured at pH 7.4 or 6.5.,Homo sapiens,8,8,1666,1666
+ST003551,Metabolomics analysis of N-methyl-arginine-treated HEK293 control (sgTomato) and ALDH7A1-deficient (sgALDH7A1) cells.,Homo sapiens,31,31,356,163
+ST003578,NRF2 supports non-small cell lung cancer growth independently of CBP/p300-enhanced glutathione synthesis,Homo sapiens,24,24,842,842
+ST003587,Comparison of Machine Learning Models for Metabolomic-Based Clinical Prediction of Preterm Birth,Homo sapiens,150,150,175,157
+ST003597,Metabolic regulation of RNA methylation by the m6A-reader IGF2BP3,Homo sapiens,12,12,450,103
+ST003599,Multi-omic profiling of squamous cell lung cancer identifies metabolites and related genes associated with squamous cell carcinoma,Homo sapiens,73,73,139,134
+ST003623,NRF2 supports non-small cell lung cancer growth independently of CBP/p300-enhanced glutathione synthesis: Global metabolomics analysis on A549 cells at different NRF2 status (Part 1 of 3),Homo sapiens,32,32,243,217
+ST003626,Metabolomic profile of human regulatory T cells.,Homo sapiens,12,12,203,202
+ST003627,Lipidomic analysis of human regulatory T cells.,Homo sapiens,12,12,611,609
+ST003629,Impact of human PSMC5 gene mutations on neuronal development: Lipid profiling of PSMC5 mutant T cells,Homo sapiens,44,44,2722,2175
+ST003630,Individual glycemic responses to carbohydrates vary and reflect underlying metabolic physiology (Lipidomics),Homo sapiens,113,113,652,652
+ST003632,Dysregulated Lipid Metabolism in African American Women Who Experienced Cardiometabolic Complications of Pregnancy,Homo sapiens,32,32,1866,755
+ST003636,Individual glycemic responses to carbohydrates vary and reflect underlying metabolic physiology (metabolomics),Homo sapiens,113,113,974,495
+ST003637,lomitapide effects on lipidomics,Homo sapiens,6,6,1523,1442
+ST003638,The effects of cystine limitation stress adaptation (CLSA) on metabolomics changes in pancreatic cancer cells (MiaPaCa-2),Homo sapiens,6,6,293,271
+ST003639,Multilevel Plasticity and Altered Glycosylation Drive Aggressiveness in Hypoxic and Glucose-Deprived Bladder Cancer Cells,Homo sapiens,12,12,714,472
+ST003645,Targeting the c-MYC/ELOVL6 Pathway Alters Cell Membrane Mechanics and Enhances Chemotherapeutic Efficacy in Pancreatic Cancer,Homo sapiens,17,17,2181,2181
+ST003649,Untargeted metabolomics of Human embryonic kidney cells (HEK293) infected by Human adenovirus serotype 5 during early and late infection.,Homo sapiens,74,74,182,179
+ST003656,Profiling the human beta cell's molecular metabolic response to glucose,Homo sapiens,10,10,1244,613
+ST003661,Lipidomics facilitates the discovery of diagnostic biomarkers in patients with chronic total occlusion during the perioperative period,Homo sapiens,63,63,612,583
+ST003662,Metabolome trajectory of exercise physiology- a comprehensive study of healthy male and female athletes,Homo sapiens,352,352,178,175
+ST003665,The effects of cystine limitation stress adaptation (CLSA) on metabolomics changes in pancreatic cancer cells (PANC1),Homo sapiens,6,6,299,277
+ST003671,Discovery of Metabolic Biomarkers for Gestational Diabetes Mellitus: An In-Depth Metabolomics Investigation Utilizing Mass Spectrometry  ,Homo sapiens,52,52,108,107
+ST003678,The effects of cystine limitation stress adaptation (CLSA) on lipidomics changes in pancreatic cancer cells,Homo sapiens,6,6,2094,1557
+ST003686,Characterization of the transpulmonary metabolome at the intersection of pulmonary vascular disease and exercise,Homo sapiens,468,468,185,177
+ST003694,FOLFIRINOX effects on lipidomics in pancreatic cancer cells,Homo sapiens,6,6,1153,1113
+ST003705,Lipid Metabolite Profiling of nontuberculous mycobacterial pulmonary disease,Homo sapiens,333,333,629,626
+ST003710,Integrating Metagenomics and Metabolomics to Study the Gut Microbiome and Host Relationships in Sports Across Different Energy Systems,Homo sapiens,42,42,170,158
+ST003720,CD9-dependent extracellular vesicles mediate the propagation of ferroptosis,Homo sapiens,12,12,533,485
+ST003734,Altered Omega-6/Omega-3 PUFA Ratios and Phospholipid Profiles in CFTR-Mutant PANC-1 Cells Reveal Novel Links Between CFTR Function and Lipid Metabolism,Homo sapiens,52,52,543,470
+ST003737,PILRA regulates microglial neuroinflammation and lipid metabolism as a candidate therapeutic target for Alzheimer’s disease,Homo sapiens,24,24,534,412
+ST003741,A Metabolite-Based Resistance Mechanism Against Malaria,Homo sapiens,112,112,183,138
+ST003751,Comprehensive Lipidomic Analysis Identifies Critical Lipid and Metabolic Pathway Shifts in Alport Syndrome,Homo sapiens,241,241,1386,897
+ST003757,Untargeted lipidomics of gemcitabine-resistant PDAC cells,Homo sapiens,20,20,409,409
+ST003758,Untargeted lipidomics of gemcitabine-resistant cells,Homo sapiens,20,20,487,485
+ST003760,Untargeted lipidomics of combination gemcitabine/paclitaxel attenuated (CombAT) PDAC cells,Homo sapiens,32,32,401,400
+ST003769,Characterization of brain‐derived extracellular vesicle lipids in Alzheimer's disease,Homo sapiens,32,32,692,668
+ST003770,"Metabolomics profiling of ovarian cancer ascites, patient plasma, and healthy donor plasma",Homo sapiens,90,90,259,228
+ST003779,Overcoming resistance to immunotherapy by targeting CD38 in human tumor explants - Intracellular metabolomics of B7.H3 human CAR-T cells,Homo sapiens,15,15,116,109
+ST003788,Pre-treatment untargeted cerebrospinal fluid metabolomic profiling in tuberculous meningitis reveals multiple pathways associated with mortality,Homo sapiens,1233,1233,737,557
+ST003792,Untargeted lipidomics characterization of blood samples from patients with maple syrup urine disease (MSUD) in comparison to healthy controls,Homo sapiens,12,12,667,650
+ST003794,Metabolomics characterization of blood samples from patients with maple syrup urine disease (MSUD) in comparison to healthy controls,Homo sapiens,12,12,203,198
+ST003801,Salivary Metabolome Profiling in Oral Cancer Patients: A Comparative Study.,Homo sapiens,84,84,176,176
+ST003830,Overcoming resistance to immunotherapy by targeting CD38 in human tumor explants - Extracellular metabolomics of B7.H3 human CAR-T cells,Homo sapiens,27,27,141,128
+ST003838,Polar metabolite profiling of human CSF from pediatric ALL patients,Homo sapiens,285,285,355,195
+ST003853,Exploring Metabolomic Profiles in Vitamin D Deficient and Obese Individuals,Homo sapiens,40,40,111,111
+ST003859,Evaluation of FASP protocol for a mass spectrometry based multiomics analysis of urine sample,Homo sapiens,9,9,145,143
+ST003867,Fatty-acid oxidation is a metabolic hallmark of human proliferative retinopathy,Homo sapiens,18,18,251,235
+ST003880,Untargeted metabolome analysis of control and disease intervertebral disc tissue,Homo sapiens,61,61,3187,1831
+ST003894,Postprandial Plasma Lipidomic Changes in 24 Metabolically Healthy Individuals Following Ingestion of Four Different Isocaloric Macronutrients,Homo sapiens,480,480,436,419
+ST003895,Postprandial Plasma Metabolomic Changes in 24 Metabolically Healthy Individuals Following Ingestion of Four Different Isocaloric Macronutrients,Homo sapiens,480,480,423,355
+ST003896,Postprandial Plasma Metabolomic Changes in 147 Individuals Following Ingestion of a Standard Mixed Meal,Homo sapiens,441,441,423,355
+ST003897,Postprandial Plasma Lipidomic Changes in 147 Individuals Following Ingestion of a Standard Mixed Meal,Homo sapiens,441,441,436,419
+ST003913,Altered Metabolomics and Inflammatory Transcriptomics in Human Bone Marrow Adipocytes After Acute High Calorie Diet and Acute Fasting,Homo sapiens,80,80,4526,1725
+ST003917,Gut Microbial Bile and Amino Acid Metabolism Associate with Peanut Oral Immunotherapy Failure,Homo sapiens,177,177,1530,975
+ST003937,"Post-transfusion recovery, quality and metabolism of short and long-term stored platelets during controlled inflammation",Homo sapiens,240,240,111,111
+ST003944,The time-dependence of ranolazine effects on metabolism in A375 and A375-VR cells,Homo sapiens,128,128,140,140
+ST003945,Lipidomics characterization of A375 and A375-VR melanoma cells treated with ranolazine and sampled longitudinally.,Homo sapiens,128,128,527,471
+ST003951,Effect of IGF2BP3 inhibition on the cellular metabolism of B-Acute Lymphoblastic Leukemia,Homo sapiens,6,6,400,107
+ST003959,"Steady state levels of polar metabolites HEK293T, SDHBKO and UQCRC1KO compared to WT cells.",Homo sapiens,18,18,195,192
+ST003967,Metabolomics data of MCF7 ER Y537S breast cancer cells +/- treatment with enzalutamide,Homo sapiens,6,6,143,138
+ST003968,Measuring TCA cycle directional fluxes using 13C6-glucose,Homo sapiens,27,27,481,124
+ST003970,Comprehensive multiplatform mass spectrometry-based metabolomics unveils insights into Babesia divergens metabolism.,Homo sapiens,103,103,271,216
+ST003972,Lipid cargo profiling of human brain-derived extracellular vesicles by APOE genotype in Alzheimer’s Disease,Homo sapiens,40,40,170,118
+ST003984,Metabolome analysis as a potential source of endometriosis biomarkers with the use of multiomics approach in its diagnosis,Homo sapiens,197,197,185,145
+ST003988,Lipid and cell cycling perturbations driven by the HDAC inhibitor romidepsin render liver cancer vulnerable to RTK targeting and immunologically active,Homo sapiens,149,149,1322,766
+ST004029,ACC1 (Acetyl-CoA carboxylase 1) regulates plasma membrane cholesterol levels by controlling lipid droplet catabolism,Homo sapiens,32,32,792,762
+ST004032,SIRT3 induces cell senescence via regulating deacetylation of SLC25A13 in colorectal cancer,Homo sapiens,24,24,424,106
+ST004057,Microglial and Non-Microglial Regulation of Lipid Metabolism in Alzheimer's Revealed by Genetic and Pharmacological Depletion,Homo sapiens; Mus musculus,108,20,282,146
+ST004058,Targeted Lipid and Metabolite Profiling in ATP13A2 knockout (KO) in HAP1 cells,Homo sapiens,97,97,449,333
+ST004073,Development of Novel Pancreatic Cancer Diagnostic Biomarkers via Lipidomic Profiling - targeted metabolomics of human plasma,Homo sapiens,344,344,102,100
+ST004077,PDE7A Inhibition Suppresses Triple-Negative Breast Cancer by Attenuating de novo Pyrimidine Biosynthesis,Homo sapiens,6,6,110,110
+ST004082,The secreted metabolite sensor CtBP2 links metabolism to healthy lifespan,Homo sapiens,6,6,508,476
+ST004088,Maternal Vitamin D Status Influences Neuroactive Metabolites in Breast Milk and Shapes the Infant Gut Metabolome,Homo sapiens,18,18,4392,1360
+ST004095,Hep3B PNPLA3 wild type and PNPLA3(I148M) lipidomics,Homo sapiens,48,48,684,517
+ST004098,Metabolic-Immuno-Hormonal Crosstalk in Breast Cancer,Homo sapiens,65,65,135,135
+ST004103,Evaluating the Molecular Effects of Two Quinoline-Containing Anti-Proliferative Compounds Using a Multi-Omics Approach,Homo sapiens,124,124,238,236
+ST004104,Human organoids uncover PTEN-driven mesendoderm specification via inhibition of retinoic acid signaling pathways,Homo sapiens,6,6,818,555
+ST004105,Untargeted LC-MS/MS- Based Metabolomics Profiling of Colorectal Cancer Cell Lines Reveals Potential Hypoxia-Associated Biomarkers,Homo sapiens,60,60,234,231
+ST004118,Lipidomics on Hep3B Cells Overexpressing CGI-158 and PNPLA2,Homo sapiens,18,18,263,224
+ST004125,"Metabolite profiling in the glycerol kinase (GK), GPD1 and GAPDH genes into the reconstituted ChREBPα-MLX HEK293T system alongside green fluorescent protein (GFP).",Homo sapiens,12,12,137,120
+ST004127,Metabolomic analysis of supernatants from ovarian cancer ascites fluid with pre-activated T cells.,Homo sapiens,18,18,313,213
+ST004130,Untargeted LC-MS-Based Metabolomics Analysis Reveals Metabolic Signatures in Patients with Primary Neuroblastoma,Homo sapiens,65,65,190,123
+ST004135,The SLC1A1/EAAT3 Dicarboxylic Amino Acid Transporter is an Epigenetically Dysregulated Nutrient Carrier that Sustains Oncogenic Metabolic Programs,Homo sapiens,24,24,314,281
+ST004138,Variation in microbiome and metabolites are associated with advantageous effects of cholestyramine on primary biliary cholangitis with pruritus,Homo sapiens,117,117,1728,1014
+ST004144,Metabolic rewiring in isogenic SW48 colorectal cancer cells with different oncogenic KRAS G12 point mutations,Homo sapiens,294,294,885,184
+ST004148,Surface Acoustic Wave Hemolysis Assay for Evaluating Stored Red Blood Cells,Homo sapiens,42,42,167,166
+ST004161,"Distinct plasma metabolomic alterations are associated with physical function, weight loss, and muscle mass in men with cancer",Homo sapiens,88,88,359,356
+ST004163,Targeted Lipid Profiling of HEK and iPSC derived iMG Cell Models with GBA1 Loss-of-Function,Homo sapiens,169,169,312,235
+ST004166,"Distinct skeletal muscle metabolomic alterations are associated with physical function, weight loss, and muscle mass in men with cancer",Homo sapiens,79,79,357,356
+ST004167,Targeted Lipidomic Profiling of STBD1 Knockdown in Clear Cell Renal Carcinoma Cells,Homo sapiens,26,26,1749,1575
+ST004168,Integrative brain omics approach highlights sn-1 lysophosphatidylethanolamine in Alzheimer's dementia,Homo sapiens,316,316,343,338
+ST004174,"Metabolomic analysis of supernatants from ovarian cancer ascites fluid with activated T cells, unactivated T cells, and T cells stimulated in ovarian cancer ascites fluid",Homo sapiens,88,88,791,570
+ST004186,Discovery and Validation of Metabolic Biomarkers for 'Liver Qi Stagnation' and 'Liver-Gallbladder Damp-Heat' Syndromes in Cholelithiasis: Blood untargeted,Homo sapiens,95,95,545,456
+ST004187,Discovery and Validation of Metabolic Biomarkers for 'Liver Qi Stagnation' and 'Liver-Gallbladder Damp-Heat' Syndromes in Cholelithiasis: Blood targeted,Homo sapiens,96,96,209,174
+ST004188,Discovery and Validation of Metabolic Biomarkers for 'Liver Qi Stagnation' and 'Liver-Gallbladder Damp-Heat' Syndromes in Cholelithiasis: Urine targeted,Homo sapiens,96,96,204,174
+ST004189,Discovery and Validation of Metabolic Biomarkers for 'Liver Qi Stagnation' and 'Liver-Gallbladder Damp-Heat' Syndromes in Cholelithiasis: Urine untargeted,Homo sapiens,96,96,567,413
+ST004195,Untargeted metabolomics profiling of HBEpCs infected with wild-type or deISGylation-deficient mutant SARS-CoV-2,Homo sapiens,45,45,808,508
+ST004202,Targeted lipidomics of PHACTR1 overexpressing and knockdown HT1080 stable cell lines,Homo sapiens,18,18,737,579
+ST004205,"Lipidomic/Metabolomic Characterization of GPR34 KO, WT, TREM2 KO, and GPR34/TREM2 dKO iPSC1-derived microglia",Homo sapiens,36,36,475,376
+ST004207,Tumour sampling conditions perturb the metabolic landscape of clear cell renal cell carcinoma,Homo Sapiens; Mus musculus,111,43,406,379
+ST004217,Lipid Alterations in ASAH1-Deficient Cells: Insights into Ceramide Accumulation and Lysosomal Dysfunction,Homo sapiens,54,54,749,507
+ST004236,Lipidomics analysis of TERT-hWA adipocytes spheroids under basal and stimulated lipolysis conditions,Homo sapiens,60,60,160,160
+ST004243,Glycolysis inhibition functionally reprograms T follicular helper cells and reverses lupus - human Lupus patients,Homo sapiens,6,6,329,173
+ST004249,Evaluation of the FASP protocol for a mass spectrometry-based multiomics analysis of a urine sample by GC-MS,Homo sapiens,8,8,138,113
+ST004262,The lipidome of drug-resistant glioblastoma persister cells.,Homo sapiens,6,6,126,126
+ST004263,Metabolomics analysis of effects of NSAID administration on human volunteers,Homo sapiens,257,257,249,186
+ST004272,Age-associated human sperm metabolomic changes,Homo sapiens,54,54,380,204
+ST004275,Cardiometabolic and molecular adaptations to 6-month intermittent fasting in middle-aged men and women with overweight: secondary outcomes of a randomized controlled trial,Homo sapiens,120,120,117,109
+ST004280,Exploring the Impact of Doxorubicin and Paclitaxel on HCT-116 Cancer Cells: A Comprehensive Multi-Omics Analysis Using Mass Spectrometry,Homo sapiens,32,32,145,143
+ST004282,Multiomics analysis of Peptide-Functionalized Zin Oxide Nanoparticles for the selective Targeting of Breast Cancer Expressing Placenta-Specific Protein 1,Homo sapiens,32,32,194,193
+ST004287,Lipidomic profiling of PILRAKO xMG in xenotransplant model after mouse microglia(mMg) depletion,Homo sapiens,18,18,259,202
+ST004297,ROSE longitudinal metabolomics analyses of ARDS inflammatory phenotypes,Homo sapiens,290,290,1745,1220
+ST004303,Exercise intensity modulates the human plasma secretome and interorgan communication,Homo sapiens,67,67,266,233
+ST004318,Metabolomic profiling of serum and stool reveals lipid and amino acid pathways associated with ALS progression rate and sex-specific differences,Homo sapiens,54,54,2249,1394
+ST004323,Human Hearts intrinsically increase cardiomyocyte mitosis following myocardial infarction,Homo sapiens,34,34,267,197
+ST004371,Mitochondrial dsRNA drives radial glia-like cell senescence and antiviral immunity in progressive Multiple Sclerosis,Homo sapiens,88,88,219,204
+ST004375,Dihydroorotate dehydrogenase (DHODH) promotes radioresistance in Lung Cancer,Homo sapiens,20,20,250,230
+ST004377,Metabolomic analysis of WT and TRAP1 KO HEK293 cells in the presence or absence of the mitochondrial Hsp90 inhibitor Gamitrinib-TPP.,Homo sapiens,12,12,379,333
+ST004378,"Metabolomic analysis of WT, Hsp90alpha KO or Hsp90beta KO HEK293 cells.",Homo sapiens,9,9,205,204
+ST004391,Polar metabolites profiling between Human Fragile X Syndrome (FXS) and typically developing (TD) human cerebellum.,Homo sapiens,12,12,161,161
+ST004393,Polar metabolites profiling in Human Fragile X Syndrome (FXS) and typically developing (TD) human plasma.,Homo sapiens,12,12,105,105
+ST004394,Intracellular polar Metabolomics on Lymphoblastoid cell lines (LCL) between individuals with Fragile X Syndrome (FXS) and from typically developing (TD) male controls.,Homo sapiens,8,8,104,104
+ST004395,Extracellular polar Metabolomics on Lymphoblastoid cell lines (LCL) between individuals with Fragile X Syndrome (FXS) and from typically developing (TD) male controls.,Homo sapiens,9,9,116,116
+ST004396,More intracellular polar metabolomics on Lymphoblastoid cell lines (LCL) between individuals with Fragile X Syndrome (FXS) and from typically developing (TD) male controls. (Repeat on cell from more patients),Homo sapiens,4,4,186,186
+ST004398,Polar metabolomics on neural progenitor cells (NPCs) generated using the dual SMAD inhibition method from Fragile X Syndrome (FXS) and typically developing (TD) induced pluripotent stem cells (iPSCs).,Homo sapiens,12,12,173,173
+ST004399,Intracellular polar metabolomics on neural progenitor cells (NPCs) generated using dual SMAD inhibition method from Fragile X Syndrome (FXS) and CRISPR edited isogenic rescue induced pluripotent stem cells (iPSCs).,Homo sapiens,12,12,231,231
+ST004400,Extracellular polar metabolomics on media neural progenitor cells (NPCs) generated using dual SMAD inhibition method from FXS and CRISPR edited isogenic rescue induced pluripotent stem cells (iPSCs),Homo sapiens,12,12,173,173
+ST004401,Polar metabolomics on extracellular media of induced pluripotent stem cells (iPSC) derived forebrain excitatory neurons generated from a FXS and CRISPR edited isogenic control.,Homo sapiens,12,12,465,464
+ST004402,Polar metabolomics on intracellular media of induced pluripotent stem cells (iPSC) derived forebrain excitatory neurons generated from a FXS and CRISPR edited isogenic control.,Homo sapiens,10,10,227,227
+ST004403,Polar metabolomics on cell pellets and extracellular media of 4-week iPSC derived forebrain excitatory neurons generated from a FXS and CRISPR edited isogenic control.,Homo sapiens,13,13,172,172
+ST004410,Uncoupling de novo pyrimidine biosynthesis from mitochondrial electron transport by ectopic expression of cytosolic DHODH,Homo sapiens,18,18,304,151
+ST004421,Comparative lipidomics of iPSC-derived microglia protocols reveal lipid droplet and immune differences mediated by media composition,Homo sapiens,108,108,1419,1419
+ST004427,Brief Pulses of High-Level Fluid Shear Stress Enhance Metastatic Potential and Rapidly Alter the Metabolism of Cancer Cells,Homo sapiens,63,63,160,147
+ST004430,Time-resolved lipidomics analysis of TERT-hWA adipocytes upon differentiation,Homo sapiens,78,78,172,171
+ST004431,Lipidomic analysis of human abdominal and gluteal white adipose tissue depots,Homo sapiens,59,59,399,397
+ST004440,Glutamine and Glucose stable-isotope tracing in NAMPT Inhibition,Homo sapiens,16,16,233,187
+ST004441,Global metabolomic differences upon NAMPT inhibition in MDS-L cells,Homo sapiens,16,16,123,119
+ST004447,Determine the impact of serum modulation to lipid homeostasis in a non-small cell lung cancer cell line,Homo sapiens,18,18,114,114
+ST004493,Comparative Untargeted Metabolomics of TIGAR-Knockout and Control HT29 CL.16E Cells,Homo sapiens,6,6,160,144
+ST004506,L-Asparaginase reversibly suppresses CD40-mediated B-Cell Activation and Antigen-Presenting Function by Metabolic Restriction,Homo sapiens,65,65,236,217
+ST004507,"15N2 Glutamine Stable Isotope Tracing in SXO210, UTSW63, TS516, and HK157",Homo sapiens,27,27,274,261
+ST004518,Plasma metabolic profiling identifies elevated hippurate as a potential biomarker of methotrexate non-response in juvenile idiopathic arthritis.,Homo sapiens,60,60,931,751
+ST004520,Optimized Untargeted Metabolomics Workflow for Human Urinary Extracellular Vesicles,Homo sapiens,16,16,562,550
+ST004524,Clonal expansion of cytotoxic CD8⁺ T cells in lecanemab-associated ARIA,Homo sapiens,6,6,628,314
+ST004529,"Description of metabolic variation between MDS versus control patient derived HSPCs, and in cultured primary cells between DMSO and OT82 exposure.",Homo sapiens,38,38,182,179
+ST004540,"Lipidomic changes in resting PBMCs by Cyclosmenospongine, Mitrephorone B and related compounds",Homo sapiens,818,818,202,202
+ST004551,A Comprehensive Landscape of Mechanical Stress–Mediated Lipid Metabolism in Human Cavernous Fibroblasts,Homo sapiens,18,18,693,561
+ST004571,Metabolomic signatures of Cardiovascular Disease Patients in High-Altitude Environments,Homo sapiens,49,49,922,695
+ST004581,"Impact of maternal HIV infection on the gut microbiota microbiome and metabolome of maternal-infant populations mothers and infants: The PRACHITi Cohort in Pune, India",Homo sapiens,100,100,934,843
+ST004598,Investigation of storage conditions and quality control markers for metabolites and lipids in human feces,Homo sapiens,42,42,241,228
+ST004608,"Untargeted Metabolic Profiling of HCT-116 cells Treated with 5-Fluorouracil, Irinotecan, and Their Combination",Homo sapiens,32,32,231,215
+ST004609,"Untargeted Metabolic Profiling of HT-29 Cells Treated with 5-Fluorouracil, Irinotecan, and Their Combination",Homo sapiens,32,32,176,163
+ST004611,Targeted metabolomics of plasma samples from metastatic renal cell carcinoma (mRCC) patients treated with fecal microbiota transplantation (FMT).,Homo sapiens,198,198,234,228
+ST004616,Lineage-tailored Extracellular Vesicles from Human Retinal Ganglion-like cells drive Metabolic Reprogramming and Bioenergetic Recovery in Preclinical Glaucomatous Degeneration,Homo sapiens,16,16,1787,860
+ST004621,Untargeted Metabolomic Profiling of Cisplatin–5-Fluorouracil Combination Therapy in MKN-45 gastric cell line,Homo sapiens,32,32,267,183
+ST004622,Untargeted Metabolomic Profiling of AGS Gastric Cells Treated with a Cisplatin–5-Fluorouracil Combination,Homo sapiens,32,32,326,241
+ST004624,Lipidomic profiling of PI3Kδ inhibition in human pancreatic ductal adenocarcinoma cells,Homo sapiens,6,6,1407,1407
+ST004630,Altered Gut Microbiota and Metabolites in Children with Non-organic Anorexia: A Multi-omics Integration Study,Homo sapiens,20,20,3051,1512
+ST004658,Lipidomics analyses in human iPSC-derived neural progenitor cells to study the impact of azoles on membrane lipid metabolism in Leigh syndrome,Homo sapiens,20,20,198,170
+ST004659,Parallel Stable Isotope Tracing of 30 Nitrogen Tracers in BT054 Cells Treated with DMSO or AGI-5198,Homo sapiens,62,62,305,291
+ST004660,Parallel Stable Isotope Tracing of 30 Nitrogen Tracers in NHA and BT054 Cells,Homo sapiens,62,62,243,228
+ST004662,Lipidomics analysis for Dyskerin Pseudouridine Synthase 1 (DKC1) knockdown in SW620 cells versus control (Part 1/2),Homo sapiens,9,9,196,162
+ST004663,Lipidomics analysis of DKC1-high versus -low colorectal cancer patients (Part 2/2),Homo sapiens,9,9,250,190
+ST004667,Metabolomics analysis of human primary astrocytes treated with astrocyte-derived exosomes from patients with or without history of COVID-19 and brain injury.,Homo sapiens,42,42,142,141
+ST004679,Evaluation of FASP for mass spectrometry-based untargeted metabolomics analysis of urine samples,Homo sapiens,25,25,108,107
+ST004684,BCAT1 promotes HCC metabolic reprogramming and survival through HIF-1α stabilization,Homo sapiens,6,6,244,226
+ST004700,Identify total polar metabolites regulated by ATF4 (Part 1/6),Homo sapiens,17,17,144,142
+ST004708,Lipidomic profiling of control and MASH iPSC-derived liver organoids using LC-MS/MS,Homo sapiens,25,25,226,226
+ST004714,Targeted serum metabolomics before and after short-term lifestyle intervention in children with obesity,Homo sapiens,27,27,817,816
+ST004715,Untargeted serum metabolomics comparison between metabolically healthy and metabolically unhealthy obesity in children,Homo sapiens,298,298,700,529
+ST004739,GC/MS-based metabolomic analysis of lymphatic endothelial cells treated with epicardial adipose tissue–conditioned media from atrial fibrillation patients,Homo sapiens,48,48,469,322
+ST004750,Cardiolipin Remodeling during Osteogenic Differentiation of Human Adipose-Derived Stem Cells,Homo sapiens,12,12,1972,1504
+ST004761,Global metabolomic profiling of the acute myeloid leukemia cell line HEL with glutamine synthetase (GLUL) knockout under differential glucose and albumin supplementation,Homo sapiens,40,40,819,746
+ST004767,Human multi-omics maps progression from pancreatitis to pancreatic ductal adenocarcinoma and identifies a diagnostic panel,Homo sapiens,210,210,1589,878
+ST004795,Metabolite profiling of circulating metabolites associated with protection against Mycobacterium tuberculosis infection in Indonesian household contacts,Homo sapiens,199,199,763,557
+ST004800,"RISOP, a reference-assisted identification approach that enhances detection coverage of oxidized phospholipids",Homo sapiens,182,182,1624,602
+ST004814,Pre-transplant Serum Immunometabolomic Profiles Associated with Kidney Transplant Survival,Homo sapiens,120,120,630,630
+ST004825,Metabolomic analysis of colorectal cancer stem cells upon 3-mercaptopyruvate sulfurtransferase (3-MST) inhibition,Homo sapiens,33,33,250,118
+ST004826,Integrated Metabolomic Analysis of Plasma and Fecal Samples from Healthy Volunteers during Durian Intervention,Homo sapiens,990,990,11027,3757
+ST004827,Age-related differences in metabolome composition in a healthy pediatric population: A pilot analysis,Homo sapiens,44,44,635,629
+ST004830,Whole-cell lipidomics of drug-treated NCI-H660 TMEM192-HA cells,Homo sapiens,50,50,991,912
+ST004831,Lyso-IP lipidomics of apilimod-treated NCI-H660 TMEM192-HA cells,Homo sapiens,20,20,346,330
+ST004836,Temporal untargeted lipidomic profiling of THP-1 macrophages infected with Leishmania infantum,Homo sapiens,58,58,739,325
+ST004849,Metabolomic Characterization of Skeletal Muscle and Vascular Adaptations During the SIRIUS-21 Eight-Month Isolation and Confinement Spaceflight Analog Mission,Homo sapiens,100,100,295,214
+ST004854,Metabolomic analysis of HEK293 cells under simulated microgravity conditions,Homo sapiens,6,6,116,116
+ST004873,Lipidomic analysis of human naive and memory regulatory T cells identified the increased PUFA containing triglycerides enriched in memory Treg compared to memory Teff after TCR stimulation.,Homo sapiens,24,24,851,845
+ST004888,Targeted saliva metabolomics of pregnant women with gestational diabetes mellitus,Homo sapiens,24,24,176,170
+ST004901,Lipidomic Analysis of in vitro-spiked Lipoprotein Lipase (LPL) in Human Plasma,Homo sapiens,228,228,576,576
+ST004921,Lipidomic analysis of colorectal cancer stem cells upon 3-mercaptopyruvate sulfurtransferase (3-MST) inhibition,Homo sapiens,30,30,1356,669
+ST004931,Untargeted LC-MS Salivary Metabolomics Reveals HIV/AIDS-Associated Metabolic Alterations Linked to Oral Fungal Dysbiosis,Homo sapiens,36,36,236,142
+ST004934,Untargeted lipidomic analysis of normal human trabecular meshwork cells using ultra performance liquid chromatography-tandem mass spectrometry,Homo sapiens,18,18,2195,1861
+ST004935,Untargeted metabolomic analysis normal human trabecular meshwork cells using ultra high-performance liquid chromatography-tandem mass spectrometry,Homo sapiens,92,92,285,181
+ST004944,Serum metabolomic profiling of NK/T-cell lymphoma,Homo sapiens,21,21,4886,2217
+ST004954,The Lipidome of iPSC-Derived Retinal Organoids Partially Resembles that of the Human Retina,Homo sapiens,18,18,3059,2641
+ST004955,The Lipidome of iPSC-Derived RPE Partially Resembles that of the Human RPE,Homo sapiens,16,16,2914,2523
+ST004960,Integrative structural analysis of the human endosomal Na⁺/H⁺ exchanger NHE6 reveals a lipid-associated intracellular gate and a disordered C-terminus,Homo sapiens,18,18,1328,1114
+ST004967,Enhanced Stem Cell-Derived Pancreatic β Cell Production through Mitochondrial Metabolic Reprogramming Improves Islet Cell Therapy for Diabetes,Homo sapiens,9,9,1502,836
+ST004972,Lipidomics of TERT-hWA adipocytes differentiated upon control (2% serum) and serum-free conditions.,Homo sapiens,48,48,208,207
+ST004973,"Lipidomics analysis of TERT-hWA adipocyte spheroids differentiated in the presence of BSA, C16:0, C18:1 or C6:0 fatty acids.",Homo sapiens,98,98,166,166
+ST004979,Exploring serum metabolic biomarkers of allergen tolerance in lipid transfer protein (LTP) allergy,Homo sapiens,118,118,327,320
+ST004997,Lipidomic profiling of TERT-hWA adipocytes under basal and forskolin-stimulated conditions with or without Fatty acid-free bovine serum albumin (BSA),Homo sapiens,17,17,373,373
+ST004998,Lipidomic profiling of abdominal subcutaneous white adipose tissue explants from obese and healthy individuals,Homo sapiens,24,24,345,345
+ST004999,Lipidomics with U-13C-Gln isotope tracing in HCMV-infected human foreskin fibroblasts (HFF) (part 1),Homo sapiens,24,24,7957,176
+ST005010,Gut microbiota and metabolites are linked to disease progression in multiple sclerosis - Feces,Homo sapiens,88,88,1095,981
+ST005011,Gut microbiota and metabolites are linked to disease progression in multiple sclerosis - Serum,Homo sapiens,88,88,1178,1028
+ST005017,To identify the metabolites changing upon LOX inhibition in TNBC cells.,Homo sapiens,6,6,158,127
+ST005020,Untargeted Lipidomic Analysis of HEK293T Cells after Fatty Acid Synthesis Inhibition,Homo sapiens,18,18,1589,1393
+ST005021,Untargeted Metabolomic Analysis of HEK293T Cells after Fatty Acid Synthesis Inhibition,Homo sapiens,120,120,798,173
+ST005027,RDH12 Expression and All-trans-Retinal-Induced Lipidome Remodeling in HEK293T Cells,Homo sapiens,29,29,6314,1510
+ST005032,Exploring cardiometabolic markers in adverse pregnancy outcomes: insights from the GROWell study,Homo sapiens,147,147,451,399
+ST005078,"Lipidomics profiling of SUIT-2 cells treated with IRE1α RNase, KRAS inhibitor or drug combination to identify unique changes in drug combination for potential mechanistic insights",Homo sapiens,22,22,571,502
+ST005087,Metabolomics analysis of TS516 and NHA Donor #1 cells in nitrogen metabolism profiling platform,Homo sapiens,64,64,242,227
+ST005089,Lipidomic profiling of human brain and brain tumor tissues,Homo sapiens,91,91,186,185
+ST005093,Metabolomic profiling of human brain and brain tumor tissues,Homo sapiens,91,91,377,357
+ST005107,Shotgun lipidomics of paired tumour and non-tumour liver tissue from a hepatocellular carcinoma cohort,Homo sapiens,168,168,2324,2324
+ST005114,Lipidomes of 59 human cancer cell lines across 11 cancer types plus 3 immortalised reference lines,Homo sapiens,123,123,2190,2190
+ST005115,Metabolomic Profiling of Amlodipine-Treated U87 and U373 Glioblastoma Cells,Homo sapiens,40,40,205,137
+ST005119,Tissue metabolites of pediatric individuals living with MASLD,Homo sapiens,52,52,242,236
+ST005133,Plasma metabolites of pediatric individuals living with MASLD,Homo sapiens,51,51,204,196
+ST005134,White adipose tissue metabolites of pediatric individuals living with MASLD,Homo sapiens,47,47,215,208
+ST005147,"Senescent T cell-derived lipids promote tumor proliferation, stemness, and chemotherapy resistance.",Homo sapiens,6,6,149,149
+ST005154,Lipidomic profiling of human senescent dendritic cells with tolerogenic functions,Homo sapiens,31,31,165,165
+ST005162,Environmental Chemical Burden in Differentiated Thyroid Cancer,Homo sapiens,191,191,3680,401
+ST005195,Lipidomics analysis of ABHD2 KO/OE,Homo sapiens,20,20,1019,911
+ST005196,Quantification of TXNDC15-KO cellular lipidome,Homo sapiens,16,16,613,608
+ST005219,Identification of multi-Omics Molecular Programs from the Peripheral Circulation of Patients with PAH,Homo sapiens,1032,1032,121,118
+ST005221,Immunometabolic effects of oral testosterone for castration-resistant prostate cancer in the ACROBAT trial,Homo sapiens,37,37,110,110
+ST005225,Metabolomic profiling of aldehyde dehydrogenase 1B1-dependent metabolites in SW480 cells,Homo sapiens,20,20,159,155
+ST005250,Steady state metabolomics and quantification of tryptophan pathway metabolites in plasma from persons with Down syndrome (trisomy 21) before and after treatment with the JAK inhibitor tofacitinib.,Homo sapiens,151,151,134,128
+ST005256,Fine-Tuning Eat-me Signal by Phosphatidylserine Unsaturation Safeguards Murine Erythroid Differentiation,"Mus musculus, Homo sapiens",424,81,160,117

@@ -1,0 +1,104 @@
+{
+  "metabo_search_commit": "4ee8d01525a898b83dfcd3ec408e372f013236f8",
+  "metabolights": {
+    "repository": "metabolights",
+    "human_studies": 1025,
+    "human_samples_total": 213952,
+    "human_samples_total_estimate": 214756,
+    "human_samples_blood": 106704,
+    "human_samples_blood_estimate": 107204,
+    "human_samples_canonical": 79156,
+    "human_samples_canonical_estimate": 79156,
+    "studies_inspected_ok": 1017,
+    "studies_unreliable": 8,
+    "unreliable_studies": [
+      {
+        "study_id": "MTBLS12025",
+        "index_samples": 67,
+        "parsed_samples": 0,
+        "study_parts": [
+          "Solvent",
+          "urine"
+        ],
+        "error": "no ISA metadata files found on the mirror"
+      },
+      {
+        "study_id": "MTBLS13296",
+        "index_samples": 196,
+        "parsed_samples": 0,
+        "study_parts": [
+          "feces"
+        ],
+        "error": "no ISA metadata files found on the mirror"
+      },
+      {
+        "study_id": "MTBLS13300",
+        "index_samples": 156,
+        "parsed_samples": 0,
+        "study_parts": [
+          "serum"
+        ],
+        "error": "no ISA metadata files found on the mirror"
+      },
+      {
+        "study_id": "MTBLS14005",
+        "index_samples": 344,
+        "parsed_samples": 0,
+        "study_parts": [
+          "blood"
+        ],
+        "error": "no ISA metadata files found on the mirror"
+      },
+      {
+        "study_id": "MTBLS15182",
+        "index_samples": 15,
+        "parsed_samples": 0,
+        "study_parts": [
+          "A-549 cell"
+        ],
+        "error": "no ISA metadata files found on the mirror"
+      },
+      {
+        "study_id": "MTBLS15239",
+        "index_samples": 12,
+        "parsed_samples": 0,
+        "study_parts": [
+          "cells"
+        ],
+        "error": "no ISA metadata files found on the mirror"
+      },
+      {
+        "study_id": "MTBLS15322",
+        "index_samples": 6,
+        "parsed_samples": 0,
+        "study_parts": [
+          "skin of body"
+        ],
+        "error": "no ISA metadata files found on the mirror"
+      },
+      {
+        "study_id": "MTBLS8113",
+        "index_samples": 8,
+        "parsed_samples": 0,
+        "study_parts": [
+          "HeLa cell",
+          "Hep-G2 cell",
+          "MCF-7 cell",
+          "MCF-7",
+          "MCF-7\\Hela\\MDA-MB-231\\Hep-G2",
+          "MDA-MB-231 cell"
+        ],
+        "error": "no ISA metadata files found on the mirror"
+      }
+    ]
+  },
+  "workbench": {
+    "repository": "metabolomics_workbench",
+    "human_studies": 1871,
+    "human_samples_total": 297536,
+    "human_samples_total_estimate": 297581,
+    "human_samples_blood": 178201,
+    "human_samples_blood_estimate": 178201,
+    "studies_failed": 0
+  }
+}

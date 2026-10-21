@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#243447}.title{font-size:22px;font-weight:bold}.subtitle{font-size:14px}.axis{stroke:#34495e;stroke-width:1}.grid{stroke:#dfe6e9;stroke-width:1}.bar{fill:#4386b5}.mean{stroke:#c0392b;stroke-width:2}.median{stroke:#16845b;stroke-width:2;stroke-dasharray:5 4}.tick{font-size:12px}.label{font-size:14px}</style>
+<text x="550.0" y="32" text-anchor="middle" class="title">Workbench human-study Jaccard distribution (RefMet names only)</text>
+<text x="550.0" y="57" text-anchor="middle" class="subtitle">734 studies · 269,011 unordered pairs · mean 0.0853 · median 0.0599</text>
+<text x="312.5" y="88" text-anchor="middle" class="label">Full range (0–1)</text>
+<line x1="85" y1="444.0" x2="540" y2="444.0" class="grid"/>
+<text x="75" y="448.0" text-anchor="end" class="tick">0.0%</text>
+<line x1="85" y1="359.0" x2="540" y2="359.0" class="grid"/>
+<text x="75" y="363.0" text-anchor="end" class="tick">9.4%</text>
+<line x1="85" y1="274.0" x2="540" y2="274.0" class="grid"/>
+<text x="75" y="278.0" text-anchor="end" class="tick">18.8%</text>
+<line x1="85" y1="189.0" x2="540" y2="189.0" class="grid"/>
+<text x="75" y="193.0" text-anchor="end" class="tick">28.2%</text>
+<line x1="85" y1="104.0" x2="540" y2="104.0" class="grid"/>
+<text x="75" y="108.0" text-anchor="end" class="tick">37.6%</text>
+<rect x="85.40" y="129.19" width="8.30" height="314.81" class="bar"/>
+<rect x="94.50" y="369.20" width="8.30" height="74.80" class="bar"/>
+<rect x="103.60" y="381.13" width="8.30" height="62.87" class="bar"/>
+<rect x="112.70" y="377.88" width="8.30" height="66.12" class="bar"/>
+<rect x="121.80" y="378.71" width="8.30" height="65.29" class="bar"/>
+<rect x="130.90" y="383.46" width="8.30" height="60.54" class="bar"/>
+<rect x="140.00" y="391.05" width="8.30" height="52.95" class="bar"/>
+<rect x="149.10" y="399.54" width="8.30" height="44.46" class="bar"/>
+<rect x="158.20" y="406.65" width="8.30" height="37.35" class="bar"/>
+<rect x="167.30" y="413.79" width="8.30" height="30.21" class="bar"/>
+<rect x="176.40" y="420.93" width="8.30" height="23.07" class="bar"/>
+<rect x="185.50" y="427.68" width="8.30" height="16.32" class="bar"/>
+<rect x="194.60" y="432.62" width="8.30" height="11.38" class="bar"/>
+<rect x="203.70" y="435.18" width="8.30" height="8.82" class="bar"/>
+<rect x="212.80" y="437.38" width="8.30" height="6.62" class="bar"/>
+<rect x="221.90" y="439.03" width="8.30" height="4.97" class="bar"/>
+<rect x="231.00" y="439.94" width="8.30" height="4.06" class="bar"/>
+<rect x="240.10" y="440.88" width="8.30" height="3.12" class="bar"/>
+<rect x="249.20" y="441.38" width="8.30" height="2.62" class="bar"/>
+<rect x="258.30" y="441.73" width="8.30" height="2.27" class="bar"/>
+<rect x="267.40" y="441.92" width="8.30" height="2.08" class="bar"/>
+<rect x="276.50" y="442.21" width="8.30" height="1.79" class="bar"/>
+<rect x="285.60" y="442.59" width="8.30" height="1.41" class="bar"/>
+<rect x="294.70" y="443.09" width="8.30" height="0.91" class="bar"/>
+<rect x="303.80" y="443.17" width="8.30" height="0.83" class="bar"/>
+<rect x="312.90" y="443.29" width="8.30" height="0.71" class="bar"/>
+<rect x="322.00" y="443.36" width="8.30" height="0.64" class="bar"/>
+<rect x="331.10" y="443.48" width="8.30" height="0.52" class="bar"/>
+<rect x="340.20" y="443.57" width="8.30" height="0.43" class="bar"/>
+<rect x="349.30" y="443.62" width="8.30" height="0.38" class="bar"/>
+<rect x="358.40" y="443.57" width="8.30" height="0.43" class="bar"/>
+<rect x="367.50" y="443.69" width="8.30" height="0.31" class="bar"/>
+<rect x="376.60" y="443.71" width="8.30" height="0.29" class="bar"/>
+<rect x="385.70" y="443.80" width="8.30" height="0.20" class="bar"/>
+<rect x="394.80" y="443.83" width="8.30" height="0.17" class="bar"/>
+<rect x="403.90" y="443.89" width="8.30" height="0.11" class="bar"/>
+<rect x="413.00" y="443.92" width="8.30" height="0.08" class="bar"/>
+<rect x="422.10" y="443.92" width="8.30" height="0.08" class="bar"/>
+<rect x="431.20" y="443.94" width="8.30" height="0.06" class="bar"/>
+<rect x="440.30" y="443.97" width="8.30" height="0.03" class="bar"/>
+<rect x="449.40" y="443.97" width="8.30" height="0.03" class="bar"/>
+<rect x="458.50" y="443.98" width="8.30" height="0.02" class="bar"/>
+<rect x="467.60" y="443.98" width="8.30" height="0.02" class="bar"/>
+<rect x="476.70" y="443.98" width="8.30" height="0.02" class="bar"/>
+<rect x="485.80" y="443.98" width="8.30" height="0.02" class="bar"/>
+<rect x="494.90" y="443.98" width="8.30" height="0.02" class="bar"/>
+<rect x="504.00" y="443.96" width="8.30" height="0.04" class="bar"/>
+<rect x="513.10" y="443.96" width="8.30" height="0.04" class="bar"/>
+<rect x="522.20" y="443.96" width="8.30" height="0.04" class="bar"/>
+<rect x="531.30" y="443.74" width="8.30" height="0.26" class="bar"/>
+<line x1="85" y1="444" x2="540" y2="444" class="axis"/>
+<line x1="85" y1="104" x2="85" y2="444" class="axis"/>
+<line x1="85.0" y1="444" x2="85.0" y2="449" class="axis"/>
+<text x="85.0" y="466" text-anchor="middle" class="tick">0.00</text>
+<line x1="176.0" y1="444" x2="176.0" y2="449" class="axis"/>
+<text x="176.0" y="466" text-anchor="middle" class="tick">0.20</text>
+<line x1="267.0" y1="444" x2="267.0" y2="449" class="axis"/>
+<text x="267.0" y="466" text-anchor="middle" class="tick">0.40</text>
+<line x1="358.0" y1="444" x2="358.0" y2="449" class="axis"/>
+<text x="358.0" y="466" text-anchor="middle" class="tick">0.60</text>
+<line x1="449.0" y1="444" x2="449.0" y2="449" class="axis"/>
+<text x="449.0" y="466" text-anchor="middle" class="tick">0.80</text>
+<line x1="540.0" y1="444" x2="540.0" y2="449" class="axis"/>
+<text x="540.0" y="466" text-anchor="middle" class="tick">1.00</text>
+<text x="312.5" y="491" text-anchor="middle" class="label">Jaccard index</text>
+<line x1="123.8" y1="104" x2="123.8" y2="444" class="mean"/>
+<line x1="112.3" y1="104" x2="112.3" y2="444" class="median"/>
+<text x="837.5" y="88" text-anchor="middle" class="label">Zoom near zero (0–0.25)</text>
+<line x1="610" y1="444.0" x2="1065" y2="444.0" class="grid"/>
+<text x="600" y="448.0" text-anchor="end" class="tick">0.0%</text>
+<line x1="610" y1="359.0" x2="1065" y2="359.0" class="grid"/>
+<text x="600" y="363.0" text-anchor="end" class="tick">7.6%</text>
+<line x1="610" y1="274.0" x2="1065" y2="274.0" class="grid"/>
+<text x="600" y="278.0" text-anchor="end" class="tick">15.2%</text>
+<line x1="610" y1="189.0" x2="1065" y2="189.0" class="grid"/>
+<text x="600" y="193.0" text-anchor="end" class="tick">22.8%</text>
+<line x1="610" y1="104.0" x2="1065" y2="104.0" class="grid"/>
+<text x="600" y="108.0" text-anchor="end" class="tick">30.4%</text>
+<rect x="610.40" y="129.19" width="17.40" height="314.81" class="bar"/>
+<rect x="628.60" y="369.69" width="17.40" height="74.31" class="bar"/>
+<rect x="646.80" y="391.67" width="17.40" height="52.33" class="bar"/>
+<rect x="665.00" y="403.88" width="17.40" height="40.12" class="bar"/>
+<rect x="683.20" y="405.29" width="17.40" height="38.71" class="bar"/>
+<rect x="701.40" y="405.00" width="17.40" height="39.00" class="bar"/>
+<rect x="719.60" y="403.65" width="17.40" height="40.35" class="bar"/>
+<rect x="737.80" y="402.63" width="17.40" height="41.37" class="bar"/>
+<rect x="756.00" y="403.15" width="17.40" height="40.85" class="bar"/>
+<rect x="774.20" y="404.14" width="17.40" height="39.86" class="bar"/>
+<rect x="792.40" y="405.49" width="17.40" height="38.51" class="bar"/>
+<rect x="810.60" y="407.68" width="17.40" height="36.32" class="bar"/>
+<rect x="828.80" y="410.40" width="17.40" height="33.60" class="bar"/>
+<rect x="847.00" y="412.14" width="17.40" height="31.86" class="bar"/>
+<rect x="865.20" y="415.20" width="17.40" height="28.80" class="bar"/>
+<rect x="883.40" y="417.85" width="17.40" height="26.15" class="bar"/>
+<rect x="901.60" y="419.90" width="17.40" height="24.10" class="bar"/>
+<rect x="919.80" y="421.92" width="17.40" height="22.08" class="bar"/>
+<rect x="938.00" y="423.66" width="17.40" height="20.34" class="bar"/>
+<rect x="956.20" y="427.00" width="17.40" height="17.00" class="bar"/>
+<rect x="974.40" y="428.36" width="17.40" height="15.64" class="bar"/>
+<rect x="992.60" y="431.13" width="17.40" height="12.87" class="bar"/>
+<rect x="1010.80" y="433.27" width="17.40" height="10.73" class="bar"/>
+<rect x="1029.00" y="434.56" width="17.40" height="9.44" class="bar"/>
+<rect x="1047.20" y="436.06" width="17.40" height="7.94" class="bar"/>
+<line x1="610" y1="444" x2="1065" y2="444" class="axis"/>
+<line x1="610" y1="104" x2="610" y2="444" class="axis"/>
+<line x1="610.0" y1="444" x2="610.0" y2="449" class="axis"/>
+<text x="610.0" y="466" text-anchor="middle" class="tick">0.00</text>
+<line x1="701.0" y1="444" x2="701.0" y2="449" class="axis"/>
+<text x="701.0" y="466" text-anchor="middle" class="tick">0.05</text>
+<line x1="792.0" y1="444" x2="792.0" y2="449" class="axis"/>
+<text x="792.0" y="466" text-anchor="middle" class="tick">0.10</text>
+<line x1="883.0" y1="444" x2="883.0" y2="449" class="axis"/>
+<text x="883.0" y="466" text-anchor="middle" class="tick">0.15</text>
+<line x1="974.0" y1="444" x2="974.0" y2="449" class="axis"/>
+<text x="974.0" y="466" text-anchor="middle" class="tick">0.20</text>
+<line x1="1065.0" y1="444" x2="1065.0" y2="449" class="axis"/>
+<text x="1065.0" y="466" text-anchor="middle" class="tick">0.25</text>
+<text x="837.5" y="491" text-anchor="middle" class="label">Jaccard index</text>
+<line x1="765.3" y1="104" x2="765.3" y2="444" class="mean"/>
+<line x1="719.1" y1="104" x2="719.1" y2="444" class="median"/>
+<line x1="355" y1="520" x2="382" y2="520" class="mean"/><text x="388" y="524" class="tick">mean</text>
+<line x1="445" y1="520" x2="472" y2="520" class="median"/><text x="478" y="524" class="tick">median</text>
+<text x="820" y="524" class="tick">Bars show percent of all pairs</text>
+</svg>
